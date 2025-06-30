@@ -1,0 +1,933 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <keywords>
+        <keyword name="3D Data">
+            <topics>
+                <topic url="Documents/gloss_3ddata.htm" window="d2hWnd_SecondaryPopup"><![CDATA[3D Data]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="3D Data - Floating-point Format">
+            <topics>
+                <topic url="Documents/3ddatafloatingpointformat.htm" window="right"><![CDATA[3D Data - Floating-point Format]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="3D Data - Integer Format">
+            <topics>
+                <topic url="Documents/3ddataintegerformat.htm" window="right"><![CDATA[3D Data - Integer Format]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="3D Frame">
+            <topics>
+                <topic url="Documents/gloss_3dframe.htm" window="d2hWnd_SecondaryPopup"><![CDATA[3D Frame]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="3D Point">
+            <topics>
+                <topic url="Documents/gloss_3dpoint.htm" window="d2hWnd_SecondaryPopup"><![CDATA[3D Point]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="3D Point Data">
+            <topics>
+                <topic url="Documents/3dpointdata.htm" window="right"><![CDATA[3D Point Data]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="3D Point data format">
+            <topics>
+                <topic url="Documents/3dpointdataformat.htm" window="right"><![CDATA[3D Point data format]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="3D Point Residuals">
+            <topics>
+                <topic url="Documents/3dpointresiduals.htm" window="right"><![CDATA[3D Point Residuals]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="A Brief History">
+            <topics>
+                <topic url="Documents/abriefhistory.htm" window="right"><![CDATA[A Brief History]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="A C3D Synopsis">
+            <topics>
+                <topic url="Documents/ac3dsynopsis.htm" window="right"><![CDATA[A C3D Synopsis]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="ADC">
+            <topics>
+                <topic url="Documents/gloss_adc.htm" window="d2hWnd_SecondaryPopup"><![CDATA[ADC]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Additional Analog Parameters">
+            <topics>
+                <topic url="Documents/additionalanalogparameters.htm" window="right"><![CDATA[Additional Analog Parameters]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Additional FORCE_PLATFORM parameters">
+            <topics>
+                <topic url="Documents/additionalforceplatformparameters.htm" window="right"><![CDATA[Additional FORCE_PLATFORM parameters]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Additional Parameters">
+            <topics>
+                <topic url="Documents/additionalparameters.htm" window="right"><![CDATA[Additional Parameters]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Additional POINT parameters">
+            <topics>
+                <topic url="Documents/additionalpointparameters.htm" window="right"><![CDATA[Additional POINT parameters]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Alternative data formats">
+            <topics>
+                <topic url="Documents/alternativedataformats.htm" window="right"><![CDATA[Alternative data formats]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Analog Data">
+            <topics>
+                <topic url="Documents/analogdata.htm" window="right"><![CDATA[Analog Data]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Analog Data - Floating-point format">
+            <topics>
+                <topic url="Documents/analogdatafloatingpointformat.htm" window="right"><![CDATA[Analog Data - Floating-point format]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Analog Data - Integer Format">
+            <topics>
+                <topic url="Documents/analogdataintegerformat.htm" window="right"><![CDATA[Analog Data - Integer Format]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Analog Data Sample">
+            <topics>
+                <topic url="Documents/gloss_analogdatasample.htm" window="d2hWnd_SecondaryPopup"><![CDATA[Analog Data Sample]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Analog Data Storage">
+            <topics>
+                <topic url="Documents/analogdatastorage.htm" window="right"><![CDATA[Analog Data Storage]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Analog Sample Format">
+            <topics>
+                <topic url="Documents/gloss_analogsampleformat.htm" window="d2hWnd_SecondaryPopup"><![CDATA[Analog Sample Format]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Analog Sample Rate">
+            <topics>
+                <topic url="Documents/gloss_analogsamplerate.htm" window="d2hWnd_SecondaryPopup"><![CDATA[Analog Sample Rate]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="ANALOG:BITS">
+            <topics>
+                <topic url="Documents/analogbits.htm" window="right"><![CDATA[ANALOG:BITS]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="ANALOG:DESCRIPTIONS">
+            <topics>
+                <topic url="Documents/analogdescriptions.htm" window="right"><![CDATA[ANALOG:DESCRIPTIONS]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="ANALOG:DESCRIPTIONS2">
+            <topics>
+                <topic url="Documents/analogdescriptions2.htm" window="right"><![CDATA[ANALOG:DESCRIPTIONS2]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="ANALOG:FORMAT">
+            <topics>
+                <topic url="Documents/analogformat.htm" window="right"><![CDATA[ANALOG:FORMAT]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="ANALOG:GAIN">
+            <topics>
+                <topic url="Documents/analoggain1.htm" window="right"><![CDATA[ANALOG:GAIN]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="ANALOG:GEN_SCALE">
+            <topics>
+                <topic url="Documents/analoggenscale.htm" window="right"><![CDATA[ANALOG:GEN_SCALE]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="ANALOG:LABELS">
+            <topics>
+                <topic url="Documents/analoglabels.htm" window="right"><![CDATA[ANALOG:LABELS]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="ANALOG:LABELS2">
+            <topics>
+                <topic url="Documents/analoglabels2.htm" window="right"><![CDATA[ANALOG:LABELS2]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="ANALOG:OFFSET">
+            <topics>
+                <topic url="Documents/analogoffset.htm" window="right"><![CDATA[ANALOG:OFFSET]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="ANALOG:OFFSET2">
+            <topics>
+                <topic url="Documents/analogoffset2.htm" window="right"><![CDATA[ANALOG:OFFSET2]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="ANALOG:RATE">
+            <topics>
+                <topic url="Documents/analograte1.htm" window="right"><![CDATA[ANALOG:RATE]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="ANALOG:SCALE">
+            <topics>
+                <topic url="Documents/analogscale.htm" window="right"><![CDATA[ANALOG:SCALE]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="ANALOG:SCALE2">
+            <topics>
+                <topic url="Documents/analogscale2.htm" window="right"><![CDATA[ANALOG:SCALE2]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="ANALOG:UNITS">
+            <topics>
+                <topic url="Documents/analogunits.htm" window="right"><![CDATA[ANALOG:UNITS]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="ANALOG:UNITS2">
+            <topics>
+                <topic url="Documents/analogunits2.htm" window="right"><![CDATA[ANALOG:UNITS2]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="ANALOG:USED">
+            <topics>
+                <topic url="Documents/analogused1.htm" window="right"><![CDATA[ANALOG:USED]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Appendix">
+            <topics>
+                <topic url="Documents/appendix.htm" window="right"><![CDATA[Appendix]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Application Parameters">
+            <topics>
+                <topic url="Documents/applicationparameters.htm" window="right"><![CDATA[Application Parameters]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Arrays">
+            <topics>
+                <topic url="Documents/gloss_arrays.htm" window="d2hWnd_SecondaryPopup"><![CDATA[Arrays]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="ASCII">
+            <topics>
+                <topic url="Documents/gloss_ascii.htm" window="d2hWnd_SecondaryPopup"><![CDATA[ASCII]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Binary formats">
+            <topics>
+                <topic url="Documents/analogoffset.htm" window="right"><![CDATA[ANALOG:OFFSET]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Block">
+            <topics>
+                <topic url="Documents/gloss_block.htm" window="d2hWnd_SecondaryPopup"><![CDATA[Block]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Bytes">
+            <topics>
+                <topic url="Documents/gloss_bytes.htm" window="d2hWnd_SecondaryPopup"><![CDATA[Bytes]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="C3D file description">
+            <topics>
+                <topic url="Documents/c3dfiledescription.htm" window="right"><![CDATA[C3D file description]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="C3D Groups and Parameters">
+            <topics>
+                <topic url="Documents/c3dgroupsandparameters.htm" window="right"><![CDATA[C3D Groups and Parameters]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="C3D Parameters">
+            <topics>
+                <topic url="Documents/c3dparameters.htm" window="right"><![CDATA[C3D Parameters]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Calculating SCALE values for EMG systems">
+            <topics>
+                <topic url="Documents/calculatingscalevaluesforemgsystems.htm" window="right"><![CDATA[Calculating SCALE values for EMG systems]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Calculating SCALE values for force plates">
+            <topics>
+                <topic url="Documents/calculatingscalevaluesforforceplates.htm" window="right"><![CDATA[Calculating SCALE values for force plates]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Calculating SCALE values for load cells">
+            <topics>
+                <topic url="Documents/calculatingscalevaluesforloadcells.htm" window="right"><![CDATA[Calculating SCALE values for load cells]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="CAMARC">
+            <topics>
+                <topic url="Documents/gloss_camarc.htm" window="d2hWnd_SecondaryPopup"><![CDATA[CAMARC]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Camera Contribution">
+            <topics>
+                <topic url="Documents/gloss_cameracontribution.htm" window="d2hWnd_SecondaryPopup"><![CDATA[Camera Contribution]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Camera Contribution Mask">
+            <topics>
+                <topic url="Documents/cameracontributionmask.htm" window="right"><![CDATA[Camera Contribution Mask]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Characters">
+            <topics>
+                <topic url="Documents/gloss_characters.htm" window="d2hWnd_SecondaryPopup"><![CDATA[Characters]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Choosing a C3D format">
+            <topics>
+                <topic url="Documents/choosingac3dformat1.htm" window="right"><![CDATA[Choosing a C3D format]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Data encryption">
+            <topics>
+                <topic url="Documents/dataencryption.htm" window="right"><![CDATA[Data encryption]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Data Section">
+            <topics>
+                <topic url="Documents/datasection.htm" window="right"><![CDATA[Data Section]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Data storage">
+            <topics>
+                <topic url="Documents/datastorage.htm" window="right"><![CDATA[Data storage]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Data Synchronization">
+            <topics>
+                <topic url="Documents/datasynchronization.htm" window="right"><![CDATA[Data Synchronization]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="DEC, Intel, and SGI/MIPS">
+            <topics>
+                <topic url="Documents/gloss_decintelandsgimips1.htm" window="d2hWnd_SecondaryPopup"><![CDATA[DEC, Intel, and SGI/MIPS]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Description">
+            <topics>
+                <topic url="Documents/description1.htm" window="right"><![CDATA[Description]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Diagnosing C3D problems">
+            <topics>
+                <topic url="Documents/diagnosingc3dproblems.htm" window="right"><![CDATA[Diagnosing C3D problems]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Endian">
+            <topics>
+                <topic url="Documents/gloss_endian.htm" window="d2hWnd_SecondaryPopup"><![CDATA[Endian]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Event interpretation">
+            <topics>
+                <topic url="Documents/eventinterpretation1.htm" window="right"><![CDATA[Event interpretation]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Event labels">
+            <topics>
+                <topic url="Documents/eventlabels2.htm" window="right"><![CDATA[Event labels]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Event status">
+            <topics>
+                <topic url="Documents/eventstatus1.htm" window="right"><![CDATA[Event status]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Event times">
+            <topics>
+                <topic url="Documents/eventtimes2.htm" window="right"><![CDATA[Event times]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="EVENT:CONTEXTS">
+            <topics>
+                <topic url="Documents/eventcontexts.htm" window="right"><![CDATA[EVENT:CONTEXTS]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="EVENT:DESCRIPTIONS">
+            <topics>
+                <topic url="Documents/eventdescriptions.htm" window="right"><![CDATA[EVENT:DESCRIPTIONS]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="EVENT:GENERIC_FLAGS">
+            <topics>
+                <topic url="Documents/eventgenericflags.htm" window="right"><![CDATA[EVENT:GENERIC_FLAGS]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="EVENT:ICON_IDS">
+            <topics>
+                <topic url="Documents/eventiconids.htm" window="right"><![CDATA[EVENT:ICON_IDS]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="EVENT:LABELS">
+            <topics>
+                <topic url="Documents/eventlabels1.htm" window="right"><![CDATA[EVENT:LABELS]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="EVENT:SUBJECTS">
+            <topics>
+                <topic url="Documents/eventsubjects.htm" window="right"><![CDATA[EVENT:SUBJECTS]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="EVENT:TIMES">
+            <topics>
+                <topic url="Documents/eventtimes1.htm" window="right"><![CDATA[EVENT:TIMES]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="EVENT:USED">
+            <topics>
+                <topic url="Documents/eventused.htm" window="right"><![CDATA[EVENT:USED]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="EVENT_CONTEXT:COLOURS">
+            <topics>
+                <topic url="Documents/eventcontextcolours.htm" window="right"><![CDATA[EVENT_CONTEXT:COLOURS]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="EVENT_CONTEXT:ICON_IDS">
+            <topics>
+                <topic url="Documents/eventcontexticonids.htm" window="right"><![CDATA[EVENT_CONTEXT:ICON_IDS]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="EVENT_CONTEXT:LABELS">
+            <topics>
+                <topic url="Documents/eventcontextlabels.htm" window="right"><![CDATA[EVENT_CONTEXT:LABELS]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="EVENT_CONTEXT:USED">
+            <topics>
+                <topic url="Documents/eventcontextused.htm" window="right"><![CDATA[EVENT_CONTEXT:USED]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Floating-point">
+            <topics>
+                <topic url="Documents/gloss_floatingpoint1.htm" window="d2hWnd_SecondaryPopup"><![CDATA[Floating-point]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="FORCE_PLATFORM:CAL_MATRIX">
+            <topics>
+                <topic url="Documents/forceplatformcalmatrix.htm" window="right"><![CDATA[FORCE_PLATFORM:CAL_MATRIX]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="FORCE_PLATFORM:CHANNEL">
+            <topics>
+                <topic url="Documents/forceplatformchannel.htm" window="right"><![CDATA[FORCE_PLATFORM:CHANNEL]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="FORCE_PLATFORM:CORNERS">
+            <topics>
+                <topic url="Documents/forceplatformcorners.htm" window="right"><![CDATA[FORCE_PLATFORM:CORNERS]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="FORCE_PLATFORM:ORIGIN">
+            <topics>
+                <topic url="Documents/forceplatformorigin.htm" window="right"><![CDATA[FORCE_PLATFORM:ORIGIN]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="FORCE_PLATFORM:TYPE">
+            <topics>
+                <topic url="Documents/forceplatformtype.htm" window="right"><![CDATA[FORCE_PLATFORM:TYPE]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="FORCE_PLATFORM:USED">
+            <topics>
+                <topic url="Documents/forceplatformused1.htm" window="right"><![CDATA[FORCE_PLATFORM:USED]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="FORCE_PLATFORM:ZERO">
+            <topics>
+                <topic url="Documents/forceplatformzero.htm" window="right"><![CDATA[FORCE_PLATFORM:ZERO]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Glossary of Terms">
+            <topics>
+                <topic url="Documents/glossaryofterms.htm" window="right"><![CDATA[Glossary of Terms]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Group Format">
+            <topics>
+                <topic url="Documents/groupformat1.htm" window="right"><![CDATA[Group Format]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Header events">
+            <topics>
+                <topic url="Documents/headerevents1.htm" window="right"><![CDATA[Header events]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Header Record function">
+            <topics>
+                <topic url="Documents/headerrecordfunction.htm" window="right"><![CDATA[Header Record function]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Header Section">
+            <topics>
+                <topic url="Documents/headersection.htm" window="right"><![CDATA[Header Section]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Integer">
+            <topics>
+                <topic url="Documents/gloss_integer.htm" window="d2hWnd_SecondaryPopup"><![CDATA[Integer]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Integers and Bytes">
+            <topics>
+                <topic url="Documents/integersandbytes.htm" window="right"><![CDATA[Integers and Bytes]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Introduction">
+            <topics>
+                <topic url="Documents/introduction.htm" window="right"><![CDATA[Introduction]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Locked Parameters">
+            <topics>
+                <topic url="Documents/lockedparameters1.htm" window="right"><![CDATA[Locked Parameters]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="LONG_FRAMES">
+            <topics>
+                <topic url="Documents/longframes.htm" window="right"><![CDATA[LONG_FRAMES]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Maintaining C3D frame count compatibility">
+            <topics>
+                <topic url="Documents/maintainingc3dframecountcompatibility1.htm" window="right"><![CDATA[Maintaining C3D frame count compatibility]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="MANUFACTURER:COMPANY">
+            <topics>
+                <topic url="Documents/manufacturercompany.htm" window="right"><![CDATA[MANUFACTURER:COMPANY]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="MANUFACTURER:EDITED">
+            <topics>
+                <topic url="Documents/manufactureredited.htm" window="right"><![CDATA[MANUFACTURER:EDITED]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="MANUFACTURER:SOFTWARE">
+            <topics>
+                <topic url="Documents/manufacturersoftware.htm" window="right"><![CDATA[MANUFACTURER:SOFTWARE]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="MANUFACTURER:VERSION">
+            <topics>
+                <topic url="Documents/manufacturerversion.htm" window="right"><![CDATA[MANUFACTURER:VERSION]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Notes for programmers - C3D Header">
+            <topics>
+                <topic url="Documents/notesforprogrammersc3dheader.htm" window="right"><![CDATA[Notes for programmers - C3D Header]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Notes for programmers - Floating-point 3D Data">
+            <topics>
+                <topic url="Documents/notesforprogrammersfloatingpoint3ddata1.htm" window="right"><![CDATA[Notes for programmers - Floating-point 3D Data]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Notes for programmers - Floating-point Analog Data">
+            <topics>
+                <topic url="Documents/notesforprogrammersfloatingpointanalogdata1.htm" window="right"><![CDATA[Notes for programmers - Floating-point Analog Data]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Notes for programmers - Integer 3D Data">
+            <topics>
+                <topic url="Documents/notesforprogrammersinteger3ddata.htm" window="right"><![CDATA[Notes for programmers - Integer 3D Data]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Notes for programmers - Integer Analog Data">
+            <topics>
+                <topic url="Documents/notesforprogrammersintegeranalogdata.htm" window="right"><![CDATA[Notes for programmers - Integer Analog Data]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Notes for programmers - Parameters and Groups">
+            <topics>
+                <topic url="Documents/notesforprogrammersparametersandgroups.htm" window="right"><![CDATA[Notes for programmers - Parameters and Groups]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Overview">
+            <topics>
+                <topic url="Documents/overview.htm" window="right"><![CDATA[Overview]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Parameter Arrays">
+            <topics>
+                <topic url="Documents/parameterarrays1.htm" window="right"><![CDATA[Parameter Arrays]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Parameter Format">
+            <topics>
+                <topic url="Documents/parameterformat1.htm" window="right"><![CDATA[Parameter Format]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Parameter header">
+            <topics>
+                <topic url="Documents/parameterheader.htm" window="right"><![CDATA[Parameter header]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Parameter Information">
+            <topics>
+                <topic url="Documents/parameterinformation.htm" window="right"><![CDATA[Parameter Information]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Parameter interpretation">
+            <topics>
+                <topic url="Documents/parameterinterpretation.htm" window="right"><![CDATA[Parameter interpretation]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Parameter Section">
+            <topics>
+                <topic url="Documents/parametersection.htm" window="right"><![CDATA[Parameter Section]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Parameters">
+            <topics>
+                <topic url="Documents/gloss_parameters.htm" window="d2hWnd_SecondaryPopup"><![CDATA[Parameters]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Physical Measurements">
+            <topics>
+                <topic url="Documents/physicalmeasurements.htm" window="right"><![CDATA[Physical Measurements]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="POINT:DATA_START">
+            <topics>
+                <topic url="Documents/pointdatastart1.htm" window="right"><![CDATA[POINT:DATA_START]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="POINT:DESCRIPTIONS">
+            <topics>
+                <topic url="Documents/pointdescriptions.htm" window="right"><![CDATA[POINT:DESCRIPTIONS]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="POINT:DESCRIPTIONS2">
+            <topics>
+                <topic url="Documents/pointdescriptions2.htm" window="right"><![CDATA[POINT:DESCRIPTIONS2]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="POINT:FRAMES">
+            <topics>
+                <topic url="Documents/pointframes1.htm" window="right"><![CDATA[POINT:FRAMES]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="POINT:LABELS">
+            <topics>
+                <topic url="Documents/pointlabels.htm" window="right"><![CDATA[POINT:LABELS]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="POINT:LABELS2">
+            <topics>
+                <topic url="Documents/pointlabels2.htm" window="right"><![CDATA[POINT:LABELS2]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="POINT:RATE">
+            <topics>
+                <topic url="Documents/pointrate1.htm" window="right"><![CDATA[POINT:RATE]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="POINT:SCALE">
+            <topics>
+                <topic url="Documents/pointscale1.htm" window="right"><![CDATA[POINT:SCALE]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="POINT:UNITS">
+            <topics>
+                <topic url="Documents/pointunits.htm" window="right"><![CDATA[POINT:UNITS]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="POINT:USED">
+            <topics>
+                <topic url="Documents/pointused1.htm" window="right"><![CDATA[POINT:USED]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="POINT:X_SCREEN">
+            <topics>
+                <topic url="Documents/pointxscreen.htm" window="right"><![CDATA[POINT:X_SCREEN]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="POINT:Y_SCREEN">
+            <topics>
+                <topic url="Documents/pointyscreen.htm" window="right"><![CDATA[POINT:Y_SCREEN]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Preface">
+            <topics>
+                <topic url="Documents/preface.htm" window="right"><![CDATA[Preface]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Raw data">
+            <topics>
+                <topic url="Documents/gloss_rawdata.htm" window="d2hWnd_SecondaryPopup"><![CDATA[Raw data]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Reading the frame count">
+            <topics>
+                <topic url="Documents/readingtheframecount.htm" window="right"><![CDATA[Reading the frame count]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="REAL">
+            <topics>
+                <topic url="Documents/gloss_real.htm" window="d2hWnd_SecondaryPopup"><![CDATA[REAL]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Records">
+            <topics>
+                <topic url="Documents/gloss_records.htm" window="d2hWnd_SecondaryPopup"><![CDATA[Records]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Repairing C3D files">
+            <topics>
+                <topic url="Documents/repairingc3dfiles.htm" window="right"><![CDATA[Repairing C3D files]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Required Parameters">
+            <topics>
+                <topic url="Documents/requiredparameters.htm" window="right"><![CDATA[Required Parameters]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Residual">
+            <topics>
+                <topic url="Documents/gloss_residual.htm" window="d2hWnd_SecondaryPopup"><![CDATA[Residual]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Revision History">
+            <topics>
+                <topic url="Documents/revisionhistory.htm" window="right"><![CDATA[Revision History]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Sample Rate Limitations">
+            <topics>
+                <topic url="Documents/sampleratelimitations.htm" window="right"><![CDATA[Sample Rate Limitations]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Scaling Factors">
+            <topics>
+                <topic url="Documents/revisionhistory.htm#april720022.htm" window="right"><![CDATA[Revision History]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Scaling Resolution">
+            <topics>
+                <topic url="Documents/scalingresolution.htm" window="right"><![CDATA[Scaling Resolution]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Section">
+            <topics>
+                <topic url="Documents/gloss_section.htm" window="d2hWnd_SecondaryPopup"><![CDATA[Section]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="SEG:ACC_FACTOR">
+            <topics>
+                <topic url="Documents/segaccfactor.htm" window="right"><![CDATA[SEG:ACC_FACTOR]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="SEG:DATA_LIMITS">
+            <topics>
+                <topic url="Documents/segdatalimits.htm" window="right"><![CDATA[SEG:DATA_LIMITS]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="SEG:INTERSECTION_LIMIT">
+            <topics>
+                <topic url="Documents/segintersectionlimit.htm" window="right"><![CDATA[SEG:INTERSECTION_LIMIT]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="SEG:MARKER_DIAMETER">
+            <topics>
+                <topic url="Documents/segmarkerdiameter.htm" window="right"><![CDATA[SEG:MARKER_DIAMETER]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="SEG:NOISE_FACTOR">
+            <topics>
+                <topic url="Documents/segnoisefactor.htm" window="right"><![CDATA[SEG:NOISE_FACTOR]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="SEG:RESIDUAL_ERROR _FACTOR">
+            <topics>
+                <topic url="Documents/segresidualerrorfactor.htm" window="right"><![CDATA[SEG:RESIDUAL_ERROR _FACTOR]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Signed numbers">
+            <topics>
+                <topic url="Documents/signednumbers.htm" window="right"><![CDATA[Signed numbers]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Specification">
+            <topics>
+                <topic url="Documents/specification.htm" window="right"><![CDATA[Specification]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Specifying Force Platform Parameters">
+            <topics>
+                <topic url="Documents/specifyingforceplatformparameters.htm" window="right"><![CDATA[Specifying Force Platform Parameters]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="The 3D Point Data Section">
+            <topics>
+                <topic url="Documents/the3dpointdatasection.htm" window="right"><![CDATA[The 3D Point Data Section]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="The ANALOG group">
+            <topics>
+                <topic url="Documents/theanaloggroupx.htm" window="right"><![CDATA[The ANALOG Group]]></topic>
+                <topic url="Documents/theanaloggroup.htm" window="right"><![CDATA[The ANALOG group]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="The ANALYSIS Group">
+            <topics>
+                <topic url="Documents/theanalysisgroup.htm" window="right"><![CDATA[The ANALYSIS Group]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="The C3D File Format">
+            <topics>
+                <topic url="Documents/thec3dfileformat.htm" window="right"><![CDATA[The C3D File Format]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="The C3D File Structure">
+            <topics>
+                <topic url="Documents/thec3dfilestructure.htm" window="right"><![CDATA[The C3D File Structure]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="The C3D frame count">
+            <topics>
+                <topic url="Documents/thec3dframecount.htm" window="right"><![CDATA[The C3D frame count]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="The EVENT Group">
+            <topics>
+                <topic url="Documents/theeventgroup.htm" window="right"><![CDATA[The EVENT Group]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="The EVENT_CONTEXT Group">
+            <topics>
+                <topic url="Documents/theeventcontextgroup.htm" window="right"><![CDATA[The EVENT_CONTEXT Group]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="The FORCE_PLATFORM group">
+            <topics>
+                <topic url="Documents/theforceplatformgroup.htm" window="right"><![CDATA[The FORCE_PLATFORM group]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="The Header Section">
+            <topics>
+                <topic url="Documents/theheadersection.htm" window="right"><![CDATA[The Header Section]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="The MANUFACTURER Group">
+            <topics>
+                <topic url="Documents/themanufacturergroup.htm" window="right"><![CDATA[The MANUFACTURER Group]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="The Parameter Section">
+            <topics>
+                <topic url="Documents/theparametersection.htm" window="right"><![CDATA[The Parameter Section]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="The POINT group">
+            <topics>
+                <topic url="Documents/thepointgroupx.htm" window="right"><![CDATA[The POINT Group]]></topic>
+                <topic url="Documents/thepointgroup.htm" window="right"><![CDATA[The POINT group]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="The SEG Group">
+            <topics>
+                <topic url="Documents/theseggroup.htm" window="right"><![CDATA[The SEG Group]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="The SUBJECTS Group">
+            <topics>
+                <topic url="Documents/thesubjectsgroup.htm" window="right"><![CDATA[The SUBJECTS Group]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="The TRIAL frame calculation">
+            <topics>
+                <topic url="Documents/thetrialframecalculation.htm" window="right"><![CDATA[The TRIAL frame calculation]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="The TRIAL Group">
+            <topics>
+                <topic url="Documents/thetrialgroup.htm" window="right"><![CDATA[The TRIAL Group]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Trial">
+            <topics>
+                <topic url="Documents/gloss_trial.htm" window="d2hWnd_SecondaryPopup"><![CDATA[Trial]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="TRIAL:ACTUAL_END_FIELD">
+            <topics>
+                <topic url="Documents/trialactualendfield.htm" window="right"><![CDATA[TRIAL:ACTUAL_END_FIELD]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="TRIAL:ACTUAL_START_FIELD">
+            <topics>
+                <topic url="Documents/trialactualstartfield.htm" window="right"><![CDATA[TRIAL:ACTUAL_START_FIELD]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="TRIAL:CAMERA_RATE">
+            <topics>
+                <topic url="Documents/trialcamerarate.htm" window="right"><![CDATA[TRIAL:CAMERA_RATE]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Troubleshooting C3D files">
+            <topics>
+                <topic url="Documents/troubleshootingc3dfiles.htm" window="right"><![CDATA[Troubleshooting C3D files]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="TYPE-1">
+            <topics>
+                <topic url="Documents/type14.htm" window="right"><![CDATA[TYPE-1]]></topic>
+                <topic url="Documents/type15.htm" window="right"><![CDATA[TYPE-1]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="TYPE-2">
+            <topics>
+                <topic url="Documents/type23.htm" window="right"><![CDATA[TYPE-2]]></topic>
+                <topic url="Documents/type24.htm" window="right"><![CDATA[TYPE-2]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="TYPE-3">
+            <topics>
+                <topic url="Documents/type3.htm" window="right"><![CDATA[TYPE-3]]></topic>
+                <topic url="Documents/type31.htm" window="right"><![CDATA[TYPE-3]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="TYPE-4">
+            <topics>
+                <topic url="Documents/type42.htm" window="right"><![CDATA[TYPE-4]]></topic>
+                <topic url="Documents/type43.htm" window="right"><![CDATA[TYPE-4]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Unsigned numbers">
+            <topics>
+                <topic url="Documents/unsignednumbers.htm" window="right"><![CDATA[Unsigned numbers]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Updating the C3D frame count">
+            <topics>
+                <topic url="Documents/updatingthec3dframecount1.htm" window="right"><![CDATA[Updating the C3D frame count]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Use and Distribution">
+            <topics>
+                <topic url="Documents/useanddistribution.htm" window="right"><![CDATA[Use and Distribution]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="UTF-8">
+            <topics>
+                <topic url="Documents/gloss_utf8.htm" window="d2hWnd_SecondaryPopup"><![CDATA[UTF-8]]></topic>
+            </topics>
+        </keyword>
+        <keyword name="Writing the C3D frame count">
+            <topics>
+                <topic url="Documents/writingthec3dframecount1.htm" window="right"><![CDATA[Writing the C3D frame count]]></topic>
+            </topics>
+        </keyword>
+    </keywords>
+    <groups />
+    <links />
+</root>

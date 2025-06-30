@@ -1,0 +1,9 @@
+# /robots.txt file for http://www.c3d.org/
+
+sitemap: https://www.c3d.org/search/sitemap.xml
+
+user-agent: *
+disallow: /templates
+
+
+

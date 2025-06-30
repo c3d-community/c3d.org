@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html><head><title>Unsigned numbers</title>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_HTML.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C3D User Guide.css" />
+<script type="text/javascript">
+//<![CDATA[
+
+
+
+var _needIndentation = false;
+
+
+
+
+//]]></script>
+
+<script language="JavaScript" src="../linker.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" src="../special.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" src="../common.js" type="text/JavaScript"></script>
+
+<meta name="Generator" content="ComponentOne Doc-To-Help v.2009.3.0.500" />
+<meta name="D2HTheme" content="C3D v.138" />
+</head>
+<body onload="d2hOnLoadToolbar(event);" style="OVERFLOW: hidden; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: transparent" relpart="../">
+<script language="javascript" type="text/javascript">
+//<![CDATA[
+
+
+
+d2hTopicPreOpen();
+
+
+
+d2hTrySyncTOC();
+
+
+
+
+
+
+
+var prev = true;
+
+
+
+
+
+var next = true;
+
+
+
+if (typeof d2hInitMainThemeHandlers != "undefined")
+
+    d2hInitMainThemeHandlers(prev, next);
+
+d2hAdjustTopicBorders(document);    
+
+
+
+if (typeof d2hLoadWindows != "undefined")
+
+    d2hLoadWindows();
+
+if (typeof d2hLoadNavUrls != "undefined")
+
+    d2hLoadNavUrls();
+
+
+
+
+//]]></script>
+
+<div id="D2HTopicOuterBody" class="d2h_outer_topic" style="OVERFLOW: auto; HEIGHT: 100%; WIDTH: 100%; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: transparent">
+<div id="nsbanner" class="d2hNavigatorTopic">
+<div id="TitleRow" class="d2h_main_titlerow" style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px">
+<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="signednumbers.htm"></a><a id="D2HNextAnchor" href="troubleshootingc3dfiles.htm"></a></div>
+<script language="JavaScript" type="text/JavaScript">
+//<![CDATA[
+
+var USE_FLAT_BUTTONS = true;
+
+var BTN_SELECTED = "";
+
+var BTN_HOVER = "";
+
+var IS_MODERN = false;
+
+var HAS_MARGIN_CLASSIC_BORDER = false;
+
+
+//]]></script>
+
+<div id="ienav" class="d2h_main_ienav">
+<table id="tblNavigator" class="D2HTopicToolbarOuter" cellspacing="0" cellpadding="0" width="100%" border="0">
+  <tbody>
+  <tr class="D2HTopicToolbarOuter">
+    <td class="D2HTopicToolbar" align="left">
+      <table class="D2HTopicToolbar" style="MARGIN-LEFT: 4px" cellspacing="0" cellpadding="0">
+        <tbody>
+        <tr class="D2HTopicToolbar">
+          <td class="D2HTopicToolbar">
+            <table class="D2HTopicToolbar" cellspacing="0" cellpadding="0">
+              <tbody>
+              <tr class="D2HTopicToolbar">
+                <td id="D2HBreadcrumbs" class="d2hCellTopic" nowrap="" caption=""><a target="right"><span class="D2HBreadcrumbsUnselected"><a class="d2h_breadcrumbsNormal" href="appendix.htm">Appendix</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="integersandbytes.htm">Integers and Bytes</a><span style="TEXT-DECORATION: none"> </span></span></a></td></tr></tbody></table></td>
+          <td class="D2HTopicToolbar" nowrap=""><span class="D2HBreadcrumbsUnselected" style="TEXT-DECORATION: none"> </span></td></tr></tbody></table></td>
+    <td class="D2HTopicToolbar" align="center">
+      <table class="D2HTopicToolbar" cellspacing="0" cellpadding="0">
+        <tbody>
+        <tr class="D2HTopicToolbar"></tr></tbody></table></td>
+    <td class="D2HTopicToolbar" align="right">
+      <table class="D2HTopicToolbar" cellspacing="0" cellpadding="0">
+        <tbody>
+        <tr class="D2HTopicToolbar">
+          <td class="D2HTopicToolbar" nowrap=""><span class="D2HEmailUnselected" style="TEXT-DECORATION: none"> </span></td>
+          <td class="D2HTopicToolbar">
+            <table class="D2HTopicToolbar" cellspacing="0" cellpadding="0">
+              <tbody>
+              <tr class="D2HTopicToolbar">
+                <td onclick="d2hCommand('D2HEmail')" id="D2HEmail" class="d2hCellTopic" nowrap=""><a href="javascript:void(0);"><span class="D2HEmailUnselected">Email<span style="TEXT-DECORATION: none"> </span></span></a></td></tr></tbody></table></td>
+          <td class="D2HTopicToolbar" width="5" nowrap=""> </td></tr></tbody></table></td></tr></tbody></table></div></div>
+<script language="javascript" type="text/javascript">
+//<![CDATA[
+
+if (typeof d2hProcessTopicNavForCSH != "undefined")
+
+    d2hProcessTopicNavForCSH();
+
+
+//]]></script>
+</div>
+<div id="nstext" class="d2h_main_nstext" style="PADDING-BOTTOM: 10px; PADDING-TOP: 5px; PADDING-LEFT: 22px; PADDING-RIGHT: 10px" valign="bottom">
+<h3>Unsigned numbers</h3>
+<p class="MsoBodyText">Many of the traditional C3D file storage limits have been 
+eliminated by interpreting many of the stored <a onclick="return d2hpopup(event, this.href)" id="popup_104165" href="gloss_integer.htm">integer</a> values as unsigned integers instead of 
+signed integers in situations where a negative value would not be 
+possible.  The use of unsigned integers and unsigned <a onclick="return d2hpopup(event, this.href)" id="popup_104169" href="gloss_bytes.htm">bytes</a> in the C3D file format since 2004 has 
+effectively doubled the amount of parameter and data storage that is available 
+within the C3D file as compared to the original specification.  This 
+affects the interpretation of the C3D file data but does not change the content 
+of the C3D file at a binary level so all older C3D files created prior to the 
+interpretation change remain compatible and readable because the file format is 
+unchanged at a binary level.</p>
+<p class="MsoBodyText">By interpreting the stored frame count (<span class="ParameterChar"><span style="FONT-SIZE: 9pt">POINT:FRAMES</span></span>) as 
+an unsigned integer, the maximum number of 3D frames that can be stored in a C3D 
+file is 65535, which increases the length of <a onclick="return d2hpopup(event, this.href)" id="popup_104166" href="gloss_3ddata.htm">3D data</a> that can be recorded in the C3D file to just 
+over 18 minutes at 60Hz e.g. 65535 / (60 * 60).  When the 65535 integer 
+frame limit is exceeded, the <span class="ParameterChar"><span style="FONT-SIZE: 9pt">POINT:FRAMES</span></span> count can be written as a <a onclick="return d2hpopup(event, this.href)" id="popup_104161" href="gloss_floatingpoint1.htm">floating-point</a> value.  In addition, 
+interpreting the parameter (<span class="ParameterChar"><span style="FONT-SIZE: 9pt">POINT:DATA_START</span></span>) as an unsigned integer 
+allows the 3D data storage <a onclick="return d2hpopup(event, this.href)" id="popup_104167" href="gloss_section.htm">section</a> to start anywhere within 
+the first 32Mb (65535*512/1024) of the C3D file.</p>
+<p class="MsoBodyText">The length of most parameter items, pointers, and indexes 
+can be interpreted as an  unsigned byte within the parameter <a onclick="return d2hpopup(event, this.href)" id="popup_104164" href="gloss_records.htm">records</a> without making any change to the contents 
+of a C3D file at a binary level.  This extends the amount of parameter 
+storage available from 127 <a onclick="return d2hpopup(event, this.href)" id="popup_104163" href="gloss_characters.htm">characters</a> per value to 255 
+characters and allows many parameter dimensions to have up to 255 separate 
+values (the signed limit was 127). The C3D group and parameter name lengths must 
+always be interpreted as a signed integer because the C3D format uses the sign 
+of the stored name length to indicate the locked, or unlocked, status of the 
+parameter.</p>
+<p class="MsoBodyText" style="PAGE-BREAK-AFTER: avoid"><img style="HEIGHT: 165pt; WIDTH: 333pt" border="0" src="../ImagesExt/image9_61.png" alt="" /></p>
+<p class="MsoCaption" style="MARGIN-LEFT: 0pt">Figure 50 - Binary and hex integers 
+translated into unsigned and signed integer values.</p>
+<p class="MsoBodyText">While the use of unsigned integers and unsigned bytes 
+within the <a onclick="return d2hpopup(event, this.href)" id="popup_104162" href="gloss_parameters.htm">parameters</a> of a C3D file could create problems 
+for older C3D applications that interpret large unsigned values as negative 
+values, this is does not affect the interpretation of data within the various 
+sections.  For instance, when using the C3D integer file formats, point 
+data within the 3D data section is always stored as signed integer values and 
+analog data within the 3D data section is also stored as signed integers by 
+default.  As a result, almost all older C3D applications will remain able 
+to read, write, and process C3D files created in the modern environment so long 
+as the new files sizes do not exceed the traditional size limits which are 
+normally adequate for most clinical and biomechanical data collection 
+environments.</p>
+<p class="MsoBodyText">Regardless of the integer format interpretation, for all 
+practical purposes, files that store pointers as signed, or unsigned integers 
+are identical at a binary level – it is the interpretation of the data values by 
+the application that defines whether the file is considered to be signed or 
+unsigned.  Both types of file use the same format for storing 3D and analog 
+data values, which are always stored as signed integers or floating-point 
+values.  The result is that when viewed at a binary level there is no 
+structural difference between the C3D files, the only difference is in the range 
+of numbers that each format supports which is determined by the application that 
+reads and interprets the binary values stored in the file.</p>
+<p class="MsoBodyText">The determination as to whether a C3D file is using signed 
+integers or unsigned integers is simply a matter of how the application 
+interprets the stored values – for example <a onclick="return d2hpopup(event, this.href)" id="popup_104168" href="gloss_arrays.htm">arrays</a> do not have negative indexes, a file cannot 
+contain a negative number of data points or channels, and cannot store a 
+negative number of frames.</p>
+<p class="MsoBodyText">While in the majority of instances, interpreting the stored 
+integers as unsigned integers removes this as an issue, certain parameter 
+integer bytes (group ID’s, parameter ID’s, group and parameter lengths etc.) 
+remain signed values.</p>
+<p class="MsoBodyText"> </p></div></div></body></html>

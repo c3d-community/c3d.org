@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html><head><title>The 3D Point Data Section</title>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_HTML.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C3D User Guide.css" />
+<script type="text/javascript">
+//<![CDATA[
+
+
+
+var _needIndentation = false;
+
+
+
+
+//]]></script>
+
+<script language="JavaScript" src="../linker.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" src="../special.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" src="../common.js" type="text/JavaScript"></script>
+
+<meta name="Generator" content="ComponentOne Doc-To-Help v.2009.3.0.500" />
+<meta name="D2HTheme" content="C3D v.138" />
+</head>
+<body onload="d2hOnLoadToolbar(event);" style="OVERFLOW: hidden; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: transparent" relpart="../">
+<script language="javascript" type="text/javascript">
+//<![CDATA[
+
+
+
+d2hTopicPreOpen();
+
+
+
+d2hTrySyncTOC();
+
+
+
+
+
+
+
+var prev = true;
+
+
+
+
+
+var next = true;
+
+
+
+if (typeof d2hInitMainThemeHandlers != "undefined")
+
+    d2hInitMainThemeHandlers(prev, next);
+
+d2hAdjustTopicBorders(document);    
+
+
+
+if (typeof d2hLoadWindows != "undefined")
+
+    d2hLoadWindows();
+
+if (typeof d2hLoadNavUrls != "undefined")
+
+    d2hLoadNavUrls();
+
+
+
+
+//]]></script>
+
+<div id="D2HTopicOuterBody" class="d2h_outer_topic" style="OVERFLOW: auto; HEIGHT: 100%; WIDTH: 100%; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: transparent">
+<div id="nsbanner" class="d2hNavigatorTopic">
+<div id="TitleRow" class="d2h_main_titlerow" style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px">
+<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="notesforprogrammersparametersandgroups.htm"></a><a id="D2HNextAnchor" href="description1.htm"></a></div>
+<script language="JavaScript" type="text/JavaScript">
+//<![CDATA[
+
+var USE_FLAT_BUTTONS = true;
+
+var BTN_SELECTED = "";
+
+var BTN_HOVER = "";
+
+var IS_MODERN = false;
+
+var HAS_MARGIN_CLASSIC_BORDER = false;
+
+
+//]]></script>
+
+<div id="ienav" class="d2h_main_ienav">
+<table id="tblNavigator" class="D2HTopicToolbarOuter" cellspacing="0" cellpadding="0" width="100%" border="0">
+  <tbody>
+  <tr class="D2HTopicToolbarOuter">
+    <td class="D2HTopicToolbar" align="left">
+      <table class="D2HTopicToolbar" style="MARGIN-LEFT: 4px" cellspacing="0" cellpadding="0">
+        <tbody>
+        <tr class="D2HTopicToolbar">
+          <td class="D2HTopicToolbar">
+            <table class="D2HTopicToolbar" cellspacing="0" cellpadding="0">
+              <tbody>
+              <tr class="D2HTopicToolbar">
+                <td id="D2HBreadcrumbs" class="d2hCellTopic" nowrap="" caption=""><a target="right"><span class="D2HBreadcrumbsUnselected"><span style="TEXT-DECORATION: none"> </span></span></a></td></tr></tbody></table></td>
+          <td class="D2HTopicToolbar" nowrap=""><span class="D2HBreadcrumbsUnselected" style="TEXT-DECORATION: none"> </span></td></tr></tbody></table></td>
+    <td class="D2HTopicToolbar" align="center">
+      <table class="D2HTopicToolbar" cellspacing="0" cellpadding="0">
+        <tbody>
+        <tr class="D2HTopicToolbar"></tr></tbody></table></td>
+    <td class="D2HTopicToolbar" align="right">
+      <table class="D2HTopicToolbar" cellspacing="0" cellpadding="0">
+        <tbody>
+        <tr class="D2HTopicToolbar">
+          <td class="D2HTopicToolbar" nowrap=""><span class="D2HEmailUnselected" style="TEXT-DECORATION: none"> </span></td>
+          <td class="D2HTopicToolbar">
+            <table class="D2HTopicToolbar" cellspacing="0" cellpadding="0">
+              <tbody>
+              <tr class="D2HTopicToolbar">
+                <td onclick="d2hCommand('D2HEmail')" id="D2HEmail" class="d2hCellTopic" nowrap=""><a href="javascript:void(0);"><span class="D2HEmailUnselected">Email<span style="TEXT-DECORATION: none"> </span></span></a></td></tr></tbody></table></td>
+          <td class="D2HTopicToolbar" width="5" nowrap=""> </td></tr></tbody></table></td></tr></tbody></table></div></div>
+<script language="javascript" type="text/javascript">
+//<![CDATA[
+
+if (typeof d2hProcessTopicNavForCSH != "undefined")
+
+    d2hProcessTopicNavForCSH();
+
+
+//]]></script>
+</div>
+<div id="nstext" class="d2h_main_nstext" style="PADDING-BOTTOM: 10px; PADDING-TOP: 5px; PADDING-LEFT: 22px; PADDING-RIGHT: 10px" valign="bottom">
+<h1>The 3D Point Data Section</h1>
+<p class="MsoBodyText">The C3D file format is designed to store <a onclick="return d2hpopup(event, this.href)" id="popup_103765" href="gloss_3dpoint.htm">3D point</a> and analog information so that the stored 
+3D locations (stored as XYZ coordinates) can be synchronized with any number of 
+analog measurements.  Information to interpret the 3D/analog <a onclick="return d2hpopup(event, this.href)" id="popup_103766" href="gloss_section.htm">section</a> contents is stored as <a onclick="return d2hpopup(event, this.href)" id="popup_103764" href="gloss_parameters.htm">parameters</a> that describe the 3D sample rates, 
+analog sample rates, and the number of sampled points and analog channels, 
+together with information documenting the data in each channel, allowing users 
+to determine the structure and contents of the stored data each time that a new 
+C3D file is read.</p><a class="_D2HAnchor" name="overview9.htm" id="overview9.htm"></a>
+<p class="MidTopic">Overview</p>
+<p class="MsoBodyText">To allow data collection systems to maintain 
+synchronization when simultaneously recording 3D and analog samples, all data 
+samples are interleaved frame-by-frame throughout the C3D data <a onclick="return d2hpopup(event, this.href)" id="popup_103769" href="gloss_section.htm">section</a>.  While files normally contain both 3D 
+and analog samples, files may contain only <a onclick="return d2hpopup(event, this.href)" id="popup_103767" href="gloss_3dpoint.htm">3D point</a> or analog data samples.</p>
+<p class="MsoBodyText" style="PAGE-BREAK-AFTER: avoid"><img style="HEIGHT: 59.3pt; WIDTH: 342pt" border="0" src="../ImagesExt/image9_18.png" alt="" /></p>
+<p class="MsoCaption" style="MARGIN-LEFT: 0pt">Figure 20 - The <a onclick="return d2hpopup(event, this.href)" id="popup_103768" href="gloss_3ddata.htm">3D data</a> section within a typical C3D file 
+structure.</p>
+<p class="MsoBodyText">The C3D format was originally designed to store 3D 
+coordinate data, referenced to a common origin as XYZ coordinates defining each 
+point location together with multiple related analog data.  This data 
+storage format is defined when the second byte stored in the C3D file header is 
+80 decimal, the <a onclick="return d2hpopup(event, this.href)" id="popup_103770" href="gloss_ascii.htm">ASCII</a> “P” character.</p>
+<p class="RelatedHead">More:</p>
+<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="description1.htm"><img border="0" alt="" src="../button.gif" align="absMiddle" />Description</a></p>
+<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="analogdatastorage.htm"><img border="0" alt="" src="../button.gif" align="absMiddle" />Analog Data Storage</a></p>
+<p class="MsoNormal"><a style="TEXT-DECORATION: none" href="scalingresolution.htm"><img border="0" alt="" src="../button.gif" align="absMiddle" />Scaling Resolution</a></p></div></div></body></html>

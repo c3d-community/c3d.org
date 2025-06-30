@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<terms relpath="../">
+    <term name="3D Data" url="Documents/gloss_3ddata.htm" window="d2hWnd_SecondaryPopup" id="66"><![CDATA[3D Data]]></term>
+    <term name="3D Frame" url="Documents/gloss_3dframe.htm" window="d2hWnd_SecondaryPopup" id="67"><![CDATA[3D Frame]]></term>
+    <term name="3D Point" url="Documents/gloss_3dpoint.htm" window="d2hWnd_SecondaryPopup" id="68"><![CDATA[3D Point]]></term>
+    <term name="Arrays" url="Documents/gloss_arrays.htm" window="d2hWnd_SecondaryPopup" id="69"><![CDATA[Arrays]]></term>
+    <term name="Analog Data Sample" url="Documents/gloss_analogdatasample.htm" window="d2hWnd_SecondaryPopup" id="70"><![CDATA[Analog Data Sample]]></term>
+    <term name="Analog Sample Format" url="Documents/gloss_analogsampleformat.htm" window="d2hWnd_SecondaryPopup" id="71"><![CDATA[Analog Sample Format]]></term>
+    <term name="Analog Sample Rate" url="Documents/gloss_analogsamplerate.htm" window="d2hWnd_SecondaryPopup" id="72"><![CDATA[Analog Sample Rate]]></term>
+    <term name="Block" url="Documents/gloss_block.htm" window="d2hWnd_SecondaryPopup" id="73"><![CDATA[Block]]></term>
+    <term name="Camera Contribution" url="Documents/gloss_cameracontribution.htm" window="d2hWnd_SecondaryPopup" id="74"><![CDATA[Camera Contribution]]></term>
+    <term name="Endian" url="Documents/gloss_endian.htm" window="d2hWnd_SecondaryPopup" id="76"><![CDATA[Endian]]></term>
+    <term name="Parameters" url="Documents/gloss_parameters.htm" window="d2hWnd_SecondaryPopup" id="79"><![CDATA[Parameters]]></term>
+    <term name="REAL" url="Documents/gloss_real.htm" window="d2hWnd_SecondaryPopup" id="80"><![CDATA[REAL]]></term>
+    <term name="Records" url="Documents/gloss_records.htm" window="d2hWnd_SecondaryPopup" id="81"><![CDATA[Records]]></term>
+    <term name="Residual" url="Documents/gloss_residual.htm" window="d2hWnd_SecondaryPopup" id="82"><![CDATA[Residual]]></term>
+    <term name="Section" url="Documents/gloss_section.htm" window="d2hWnd_SecondaryPopup" id="83"><![CDATA[Section]]></term>
+    <term name="Trial" url="Documents/gloss_trial.htm" window="d2hWnd_SecondaryPopup" id="84"><![CDATA[Trial]]></term>
+    <term name="Bytes" url="Documents/gloss_bytes.htm" window="d2hWnd_SecondaryPopup" id="522"><![CDATA[Bytes]]></term>
+    <term name="Characters" url="Documents/gloss_characters.htm" window="d2hWnd_SecondaryPopup" id="523"><![CDATA[Characters]]></term>
+    <term name="UTF-8" url="Documents/gloss_utf8.htm" window="d2hWnd_SecondaryPopup" id="557"><![CDATA[UTF-8]]></term>
+    <term name="Integer" url="Documents/gloss_integer.htm" window="d2hWnd_SecondaryPopup" id="804"><![CDATA[Integer]]></term>
+    <term name="Floating-point" url="Documents/gloss_floatingpoint1.htm" window="d2hWnd_SecondaryPopup" id="1065"><![CDATA[Floating-point]]></term>
+    <term name="ADC" url="Documents/gloss_adc.htm" window="d2hWnd_SecondaryPopup" id="1130"><![CDATA[ADC]]></term>
+    <term name="Raw data" url="Documents/gloss_rawdata.htm" window="d2hWnd_SecondaryPopup" id="1131"><![CDATA[Raw data]]></term>
+    <term name="ASCII" url="Documents/gloss_ascii.htm" window="d2hWnd_SecondaryPopup" id="1259"><![CDATA[ASCII]]></term>
+    <term name="CAMARC" url="Documents/gloss_camarc.htm" window="d2hWnd_SecondaryPopup" id="1260"><![CDATA[CAMARC]]></term>
+    <term name="DEC, Intel, and SGI/MIPS" url="Documents/gloss_decintelandsgimips1.htm" window="d2hWnd_SecondaryPopup" id="1684"><![CDATA[DEC, Intel, and SGI/MIPS]]></term>
+</terms>

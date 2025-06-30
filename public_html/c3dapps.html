@@ -1,0 +1,154 @@
+<!DOCTYPE HTML>
+<html lang="en"><!-- InstanceBegin template="/Templates/c3d.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+	<meta charset="utf-8" />
+	<meta name="author" content="Motion Lab Systems, Inc." />
+	<link href='https://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css' />
+	<link rel="stylesheet" type="text/css" href="c3d.css" title="C3D" media="all" />
+	<meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9">
+  <!-- InstanceBeginEditable name="doctitle" -->
+    <meta name="Description" content="The C3D file format specification and documentation" />
+    <meta name="Keywords" content="C3D, motion capture, biomechanics, animation, 3D motion capture, gaitlab, motion lab" /> 
+	<title>C3D.ORG - C3D applications</title>
+  <!-- InstanceEndEditable -->
+  <link rel="shortcut icon" href="favicon.ico"/>
+  
+  <style>
+    body {background-image: url("images/C3D.gif"); background-repeat: repeat;}
+  </style>
+  
+</head>
+
+
+<body>
+<div id="layout">
+
+  <div class="header">
+    <a href="index.html" class="logo">C3D.ORG</a>
+    <div class="header-right">
+	  <a href="HTML/default.htm" target="_blank">Help</a>
+	<!-- InstanceBeginEditable name="menu" -->
+      <a href="../c3dsupport.html">Support</a>
+      <a class="active" href="c3dapps.html">Applications</a>
+      <a href="../sampledata.html">C3D files</a>  
+	<!-- InstanceEndEditable -->
+    </div>
+  </div>
+   
+   <!-- InstanceBeginEditable name="content" -->
+	<div class="row">
+		<div class="col c12 alignjustify">
+		<h2>Software Applications</h2>
+		<p>The applications listed below in alphabetical order are free or demonstration versions of  applications that support the C3D format and provide access to C3D files. The majority of applications are written for a Windows PC but some items include support for LabVIEW and MATLAB as well as C, C++ and Visual Basic applications.</p>
+		<p>The C3D.ORG web site welcomes submissions of any user-written or commercial C3D programs for inclusion on these pages.  Please e-mail <a href="mailto:info@c3d.org">info@c3d.org</a> for details or information about submitting applications to this list. A list of manufacturers supporting the C3D formal can be found <a href="../c3dsupport.html">here</a>.</p>
+        </div>
+	</div>
+    
+	<div class="row">
+ 		<div class="col c6 alignjustify">
+		<h4><a href="apps/anz_complete.zip">ANZ - C3D Locomotion Analysis</a></h4>
+        <p>The ANZ package is a set of MSDOS programs written in 1990 for  research and evaluation of human locomotion data stored in C3D files for the analysis and  display  of body segment kinematics and kinetics. The software runs under MS-DOS and includes the original FORTRAN source code and the authors  extensive documentation notes, it is made available for historical reference.</p></div>	
+
+ 		<div class="col c6 alignjustify">
+			<h4><a href="apps/btk_Matlab2018_MacOS.zip">BTK  for Apple operating systems</a></h4>
+			<p>This is a zip file that contains the <a href="http://biomechanical-toolkit.github.io/" target="_blank">Biomechanical Tool Kit</a> files for Apple operating systems with support for MATLAB and has been compiled using Matlab 2018a, BTK was originally developed as an open-source alternative to the C3Dserver. BTK is no longer supported and has been forked into <a href="https://opensim.stanford.edu/" target="_blank">OpenSim 4.0</a>, documentation for reading C3D files in OpenSim can be found <a href="https://simtk-confluence.stanford.edu:8443/display/OpenSim/C3D+(.c3d)+Files" target="_blank">here</a>.</p>
+		</div>
+    </div>
+           
+	<div class="row">		
+		<div class="col c6 alignjustify">
+			<h4><a href="apps/RData2_setup.exe">Convert C3D to ASCII (RData2) - demo</a></h4>
+			<p>This is an evaluation version of the commercial Motion Lab Systems "RData2" C3D to ASCII export application that allows any component of a C3D file to be exported to a number of predefined, and user defined, ASCII text formats including the CAMARC DST file format. The evaluation version is fully functional on small (less than 100 frames) C3D files - the full product handles C3D files  up to 32,767 frames.</p>
+		</div>
+        
+        <div class="col c6 alignjustify">
+			<h4><a href="apps/C3Deditor_setup.exe">C3D file editor (C3Deditor) -  demo</a></h4>
+			<p>An evaluation version of the commercial Motion Lab Systems graphical C3D file editor for all Windows operating systems.  This is the evaluation version that is fully functional with the demonstration C3D files supplied with the installation.  The registered product opens any C3D file including files with errors that may prevent other applications from opening them.  Includes a tutorial as well as a 130+ page user manual in PDF format.</p>
+		</div>
+    </div>
+           
+	<div class="row">		
+		<div class="col c6 alignjustify">
+			<h4><a href="apps/C3Dserver_setup.exe">C3D Software Development Kit (C3Dserver)</a></h4>
+			<p>A Software Development Kit (SDK) for C3D.  Updated for 32/64-bit Windows systems, this provides easy-to-use C3D file access from Visual Basic, MATLAB, C++, Excel, Java, and Word etc. The SDK includes documentation, sample Visual Basic and C++ code, and a C3D file editing application (including  Visual Basic source code and documentation).</p>
+		</div>
+        
+        <div class="col c6 alignjustify">
+			<h4><a href="apps/MLSviewer_setup.exe">C3D File viewer (MLSviewer)</a></h4>
+			<p>A fully functional C3D file viewer written by Motion Lab Systems that runs on any Windows computer.  It allows the user to view the parameter structure, analog data values and 3D data values stored in any C3D file up  32,767 frames long without any risk of modifying or changing the contents of the C3D file in any way.</p>
+		</div>
+    </div>
+           
+	<div class="row">        
+        <div class="col c6 alignjustify">
+		    <h4><a href="https://pypi.org/project/pyc3dserver/" target="_blank">PyC3Dserver – User Written</a></h4>
+		    <p>PyC3Dserver is a user-written Python interface for the 64-bit <a href="apps/C3Dserver_setup.exe">C3Dserver</a> allowing Python applications to  read and access C3D files. PyC3Dserver is distributed under the MIT license. Users can install PyC3Dserver module from the <a href="https://pypi.org/project/pyc3dserver/">PyPI website</a>, the PyC3Dserver source code  is open in its <a href="https://github.com/mkjung99/pyc3dserver">GitHub</a> page.</p>
+      </div>
+
+        <div class="col c6 alignjustify">
+		    <h4><a href="https://github.com/pyomeca/ezc3d" target="_blank">EZC3D, A C3D File access suite</a></h4>
+		    <p>Currently under active development, EZC3D is a open source C++/Matlab/Python solution available on github.com for reading and writing C3D files that the authors claim can be used to read and modify C3D files from Vicon, Qualisys and Optotrak systems and generate C3D files.</p>
+      </div>       		
+    </div>
+           
+	<div class="row">  
+		<div class="col c6 alignjustify">
+			<h4><a href="apps/c3d_reader_labview_b.zip">LabVIEW C3D file access - User Written</a></h4>
+			<p>This is a  collection of LabVIEW .vi files that enables LabVIEW to export the header, parameters and data from a C3D file to ASCII. It runs under LabVIEW on both PC and Mac platforms and was developed at the <a href="http://physiotherapy.curtin.edu.au/" target="_blank">School of Physiotherapy at Curtin University</a> in Australia.</p>
+		</div>
+              
+		<div class="col c6 alignjustify">
+		  <h4><a href="apps/c3d_matlab.zip">MATLAB access - User Written</a></h4>
+			<p>This is a collection of user-written m-files that enables  full functionality of the Motion Lab Systems <a href="apps/C3Dserver_setup.exe">C3Dserver</a> within the MathWorks MATLAB environment.</p>
+		</div>
+    </div>
+           
+	<div class="row">	
+       	<div class="col c6 alignjustify">
+			<h4><a href="apps/GaitExtractToolbox16.zip">A MATLAB toolbox - User Written</a></h4>
+			<p>This is a  MATLAB toolbox, distributed under the BSD license, for extracting and processing motion capture data. The toolbox provides powerful features such as filtering, marker evaluations and the calculation of new marker positions. Includes installation instructions for the MATLAB environment, a user manual and copies of the C3Dserver and MLSviewer applications as well as many MATLAB .m files.</p>
+		</div>
+           	
+		<div class="col c6 alignjustify">
+			<h4><a href="apps/Mokka_setup.exe">MOKKA - Motion Kinematic &amp; Kinetic Analyzer</a></h4>
+			<p>Mokka is an open-source application written by Arnaud Barré using the Biomechanical ToolKit allowing users to visualize 3D data in movement science applications. Designed primarily for C3D, Mokka can also import data from a number of proprietary  formats used in biomechanics. This installation for Windows Vista through Windows 10 supports both 32-bit and 64-bit installations and includes sample C3D files.</p>
+		</div>
+    </div>
+           
+	<div class="row">	
+        <div class="col c6 alignjustify">
+			<h4><a href="https://c3dtools.com">C3DTOOLS exports C3d data to opensim</a></h4>
+			<p>This is a website created by BSNLAB that supports  the export of C3D data to the ASCII file formats required by the Opensim application. These are the original Motion Analysis Corporation .TRC (Track Row Column) file format, and the  .MOT (motion) file format  created by the Motion Analysis Corporation SIMM developers.</p>
+		</div>
+            	
+		<div class="col c6 alignjustify">
+			<h4><a href="apps/WDQ2C3D_setup.exe">Convert Dataq .WDQ files to .C3D files</a></h4>
+			<p>A free application, written by Motion Lab Systems, that will open a 14-bit resolution Dataq .WDQ analog data file and export the analog data to a C3D file. This has a simple GUI interface and can be run from the command line making is easy to incorporate into other applications. Includes sample .WDQ files containing sample EMG data.</p>
+		</div>
+	</div>
+    
+	<div class="row">
+    		<div class="col c6 alignjustify">
+			<h4><a href="apps/c3dSound.exe">Listen to any C3D analog channel</a></h4>
+			<p>A free  application, written by Motion Lab Systems, that will play any analog channel in a C3D file through the PC sound output - this was originally written to allow a laboratory to connect a microphone to the data collection ADC so that comments by the technicians collecting the trial could be recorded and replayed when the C3D file was analyzed, e.g. &quot;Good foot on plate two&quot;</p>
+		</div>
+        	
+		<div class="col c6 alignjustify">
+			<h4><a href="apps/PRM.zip">ADTech PRM</a></h4>
+			<p>A collection of files based on the original ADTech PRM application,  written in FORTRAN for a 16-bit MSDOS environment. The original collection of has been updated to include FORTRAN and C source code demonstrating how to read and export C3D data in  each of the DEC, Intel, and SGI/MIPS formats.</p>
+		</div>
+        
+	</div>
+  <!-- InstanceEndEditable -->
+ 
+	<div id="footer" class="row">
+		<div class="col c12 aligncenter smaller">
+			<h3>This web site does not use cookies, collect, or store any data from visitors.</h3>
+			<p> The C3D web site is maintained  as a resource for the biomechanics community.<br>
+              <a href="updates.html">Updated</a> on 
+              <!-- #BeginDate format:Am1 -->January 12, 2023<!-- #EndDate --></p>
+		</div>
+	</div>
+ </div>
+</body>
+<!-- InstanceEnd --></html>

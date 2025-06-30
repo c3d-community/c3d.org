@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html><head><title>Notes for programmers - Floating-point 3D Data</title>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/nav.css" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_HTML.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C3D User Guide.css" />
+<script type="text/javascript">
+//<![CDATA[
+
+
+
+var _needIndentation = false;
+
+
+
+
+//]]></script>
+
+<script language="JavaScript" src="../linker.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" src="../special.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" src="../common.js" type="text/JavaScript"></script>
+
+<meta name="Generator" content="ComponentOne Doc-To-Help v.2009.3.0.500" />
+<meta name="D2HTheme" content="C3D v.138" />
+</head>
+<body onload="d2hOnLoadToolbar(event);" style="OVERFLOW: hidden; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: transparent" relpart="../">
+<script language="javascript" type="text/javascript">
+//<![CDATA[
+
+
+
+d2hTopicPreOpen();
+
+
+
+d2hTrySyncTOC();
+
+
+
+
+
+
+
+var prev = true;
+
+
+
+
+
+var next = true;
+
+
+
+if (typeof d2hInitMainThemeHandlers != "undefined")
+
+    d2hInitMainThemeHandlers(prev, next);
+
+d2hAdjustTopicBorders(document);    
+
+
+
+if (typeof d2hLoadWindows != "undefined")
+
+    d2hLoadWindows();
+
+if (typeof d2hLoadNavUrls != "undefined")
+
+    d2hLoadNavUrls();
+
+
+
+
+//]]></script>
+
+<div id="D2HTopicOuterBody" class="d2h_outer_topic" style="OVERFLOW: auto; HEIGHT: 100%; WIDTH: 100%; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: transparent">
+<div id="nsbanner" class="d2hNavigatorTopic">
+<div id="TitleRow" class="d2h_main_titlerow" style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px">
+<div style="DISPLAY: none"><a id="D2HPreviousAnchor" href="3ddatafloatingpointformat.htm"></a><a id="D2HNextAnchor" href="3dpointresiduals.htm"></a></div>
+<script language="JavaScript" type="text/JavaScript">
+//<![CDATA[
+
+var USE_FLAT_BUTTONS = true;
+
+var BTN_SELECTED = "";
+
+var BTN_HOVER = "";
+
+var IS_MODERN = false;
+
+var HAS_MARGIN_CLASSIC_BORDER = false;
+
+
+//]]></script>
+
+<div id="ienav" class="d2h_main_ienav">
+<table id="tblNavigator" class="D2HTopicToolbarOuter" cellspacing="0" cellpadding="0" width="100%" border="0">
+  <tbody>
+  <tr class="D2HTopicToolbarOuter">
+    <td class="D2HTopicToolbar" align="left">
+      <table class="D2HTopicToolbar" style="MARGIN-LEFT: 4px" cellspacing="0" cellpadding="0">
+        <tbody>
+        <tr class="D2HTopicToolbar">
+          <td class="D2HTopicToolbar">
+            <table class="D2HTopicToolbar" cellspacing="0" cellpadding="0">
+              <tbody>
+              <tr class="D2HTopicToolbar">
+                <td id="D2HBreadcrumbs" class="d2hCellTopic" nowrap="" caption=""><a target="right"><span class="D2HBreadcrumbsUnselected"><a class="d2h_breadcrumbsNormal" href="the3dpointdatasection.htm">The 3D Point Data 
+                  Section</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; 
+                  </span><a class="d2h_breadcrumbsNormal" href="description1.htm">Description</a><span class="d2h_breadcrumbsLinkSeparator"> &gt; </span><a class="d2h_breadcrumbsNormal" href="3ddatafloatingpointformat.htm">3D Data - Floating-point 
+                  Format</a><span style="TEXT-DECORATION: none"> </span></span></a></td></tr></tbody></table></td>
+          <td class="D2HTopicToolbar" nowrap=""><span class="D2HBreadcrumbsUnselected" style="TEXT-DECORATION: none"> </span></td></tr></tbody></table></td>
+    <td class="D2HTopicToolbar" align="center">
+      <table class="D2HTopicToolbar" cellspacing="0" cellpadding="0">
+        <tbody>
+        <tr class="D2HTopicToolbar"></tr></tbody></table></td>
+    <td class="D2HTopicToolbar" align="right">
+      <table class="D2HTopicToolbar" cellspacing="0" cellpadding="0">
+        <tbody>
+        <tr class="D2HTopicToolbar">
+          <td class="D2HTopicToolbar" nowrap=""><span class="D2HEmailUnselected" style="TEXT-DECORATION: none"> </span></td>
+          <td class="D2HTopicToolbar">
+            <table class="D2HTopicToolbar" cellspacing="0" cellpadding="0">
+              <tbody>
+              <tr class="D2HTopicToolbar">
+                <td onclick="d2hCommand('D2HEmail')" id="D2HEmail" class="d2hCellTopic" nowrap=""><a href="javascript:void(0);"><span class="D2HEmailUnselected">Email<span style="TEXT-DECORATION: none"> </span></span></a></td></tr></tbody></table></td>
+          <td class="D2HTopicToolbar" width="5" nowrap=""> </td></tr></tbody></table></td></tr></tbody></table></div></div>
+<script language="javascript" type="text/javascript">
+//<![CDATA[
+
+if (typeof d2hProcessTopicNavForCSH != "undefined")
+
+    d2hProcessTopicNavForCSH();
+
+
+//]]></script>
+</div>
+<div id="nstext" class="d2h_main_nstext" style="PADDING-BOTTOM: 10px; PADDING-TOP: 5px; PADDING-LEFT: 22px; PADDING-RIGHT: 10px" valign="bottom">
+<h4>Notes for programmers - Floating-point 3D Data</h4>
+<p class="MsoBodyText" style="MARGIN: 5pt 0pt 6pt 36pt; TEXT-INDENT: -18pt; tab-stops: 180.0pt">1.  
+The <span class="ParameterChar"><span style="FONT-SIZE: 9pt">POINT:SCALE</span></span> parameter is copied to the C3D 
+file header (words 7-8) and can be quickly located and read by applications once 
+they have determined which of the C3D processor formats (<a onclick="return d2hpopup(event, this.href)" id="popup_103806" href="gloss_decintelandsgimips1.htm">DEC, Intel, and SGI/MIPS</a>) is used.</p>
+<p class="MsoBodyText" style="MARGIN: 5pt 0pt 6pt 36pt; TEXT-INDENT: -18pt; tab-stops: 180.0pt">2.  
+When a file contains <a onclick="return d2hpopup(event, this.href)" id="popup_103807" href="gloss_floatingpoint1.htm">floating-point</a> scaled <a onclick="return d2hpopup(event, this.href)" id="popup_103811" href="gloss_3ddata.htm">3D data</a> then analog data samples will be stored in 
+floating-point format.  However the C3D format will apply the analog 
+scaling calculations to the stored sample values so analog data samples should 
+not be modified or scaled prior to storage.</p>
+<p class="MsoBodyText" style="MARGIN: 5pt 0pt 6pt 36pt; TEXT-INDENT: -18pt; tab-stops: 180.0pt">3.  
+If the 3D data points are stored in floating-point format, the X, Y, and Z 
+coordinates have been already multiplied by the scale factor.  Words 7-8 
+contain normal 4th word signed <a onclick="return d2hpopup(event, this.href)" id="popup_103810" href="gloss_integer.htm">integer</a> value stored as a 
+floating-point number.  To extract the mask and <a onclick="return d2hpopup(event, this.href)" id="popup_103808" href="gloss_residual.htm">residual</a> data, this word should be converted to a 
+signed integer, divided into high and low <a onclick="return d2hpopup(event, this.href)" id="popup_103812" href="gloss_bytes.htm">bytes</a>, and the low byte multiplied by the absolute 
+value of the <span class="ParameterChar"><span style="FONT-SIZE: 9pt">POINT:SCALE</span></span> parameter to obtain the correct 
+residual value.</p>
+<p class="MsoBodyText" style="MARGIN: 5pt 0pt 6pt 36pt; TEXT-INDENT: -18pt; tab-stops: 180.0pt">4.  
+It is important to realize that the sign of the <span class="ParameterChar"><span style="FONT-SIZE: 9pt">POINT:SCALE</span></span> parameter and the magnitude of 
+the parameter are treated as two independent factors in floating-point data 
+files.  The sign simply indicates that the file is a floating-point format, 
+while the magnitude is used to scale the residual values and should be set to an 
+appropriate value (maximum coordinate/32000) in case the C3D file is converted 
+to integer format.  Failure to calculate and store a valid <span class="ParameterChar"><span style="FONT-SIZE: 9pt">POINT:SCALE</span></span> 
+parameter will cause corruption if the file data is format is changed to an 
+integer format for any reason.</p>
+<p class="MsoBodyText" style="MARGIN: 5pt 0pt 6pt 36pt; TEXT-INDENT: -18pt; tab-stops: 180.0pt">5.  
+Within each <a onclick="return d2hpopup(event, this.href)" id="popup_103809" href="gloss_3dframe.htm">3D frame</a>, the 3D points are stored in the order 
+recorded by the parameter <span class="ParameterChar"><span style="FONT-SIZE: 9pt">POINT:LABELS</span></span> followed by the analog data, 
+if present.</p></div></div></body></html>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html><head><title>Residual</title>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_HTML.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/Glossary.css" />
+<script language="JavaScript" src="../linker.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" src="../special.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" src="../common.js" type="text/JavaScript"></script>
+
+<meta name="Generator" content="ComponentOne Doc-To-Help v.2009.3.0.500" />
+<meta name="D2HTheme" content="C3D v.138" />
+</head>
+<body onmousedown="d2hpopup()" onload="d2hload();d2hProcessHighlight();" style="BACKGROUND-COLOR: lightyellow" relpart="../">
+<script language="JavaScript" type="text/JavaScript">
+//<![CDATA[
+
+if (typeof d2hLoadWindows != "undefined")
+
+    d2hLoadWindows();
+
+
+//]]></script>
+
+<p class="GlossaryHeading">Residual</p>
+<p class="MsoBodyText">The <a onclick="return d2hpopup(event, this.href)" id="popup_104331" href="gloss_3dpoint.htm">3D point</a> residual is generated when 
+the location of the associated 3D point recorded in the C3D file is calculated, 
+and <a onclick="return d2hpopup(event, this.href)" id="popup_104332" href="gloss_records.htm">records</a> the average accuracy distance of the point, 
+calculated by the photogrammetry software and recorded in <span class="ParameterChar"><span style="FONT-SIZE: 9pt">POINT:UNITS</span></span> that 
+documents the intersection of the rays used to generate the 3D point 
+locations.  Low residual numbers indicate that the 3D point locations are 
+more accurate when these numbers are derived from the measured 2D vector data 
+used for the photogrammetry reconstruction and will always be absolute, non-zero 
+values.</p>
+<p class="MsoBodyText">Residual values of zero indicate that the point was not 
+directly derived from measurements, i.e. the associated 3D coordinates were 
+estimated by interpolation, affected by filtering, or simulated from a software 
+model.  Negative residual values indicate that the stored 3D point is 
+probably invalid.  It is recommended that all residual calculation methods 
+are fully documented.</p></body></html>

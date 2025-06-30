@@ -1,0 +1,113 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="author" content="Motion Lab Systems, Inc." />
+	<link href='https://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css' />
+	<link rel="stylesheet" type="text/css" href="../c3d.css" title="C3D" media="all" />
+	<meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9">
+  <!-- TemplateBeginEditable name="doctitle" -->
+    <meta name="Description" content="The C3D file format specification and documentation" />
+    <meta name="Keywords" content="C3D File Viewer, C3D File Repair, C3D File Format, Motion Capture, Biomechanics, Animation, 3D Motion Capture, Gaitlab, Motion Lab" /> 
+	<title>C3D - The biomechanics standard file format</title>
+  <!-- TemplateEndEditable -->
+  <link rel="shortcut icon" href="favicon.ico"/>
+  
+  <style>
+    body {background-image: url("../images/C3D.gif"); background-repeat: repeat;}
+  </style>
+  
+</head>
+
+
+<body>
+<div id="layout">
+
+  <div class="header">
+    <a href="../index.html" class="logo">C3D.ORG</a>
+    <div class="header-right">
+	  <a href="../HTML/default.htm" target="_blank">Help</a>
+	<!-- TemplateBeginEditable name="menu" -->
+      <a href="../c3ddocs.html">Documentation</a>
+      <a href="../c3dsupport.html">Support</a>
+      <a class="active" href="../about.html">About</a>
+	<!-- TemplateEndEditable -->
+    </div>
+  </div>
+   
+   <!-- TemplateBeginEditable name="content" -->
+	<div id="gallery" class="row">
+		<div class="col c12">
+			<img class="output" src="1.jpg" width="960" alt="" />
+		</div>
+	</div>
+
+    <div class="row">
+		<div class="col c12 alignjustify">
+		<h2>C12</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisi  cing elit, sed do eiusmod tempor incididunt <a href="#">ut labore et dolore</a> magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquipex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaeca cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
+	</div>
+	
+	<div class="row">
+ 		<div class="col c6 alignjustify">
+			<h2>C6</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt <a href="#">ut labore et dolore</a> magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
+		
+		<div class="col c6 alignjustify">
+			<h2>C6</h2>
+			<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+		</div>
+	</div>
+	
+	<div class="row">
+ 		<div class="col c3">
+			<h3>C3</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit [...]</p>
+		</div>
+		
+		<div class="col c3">
+			<h3>C3</h3>
+			<p>Ut enim ad minim veniam, quis nostrud exercitation [...]</p>
+		</div>
+		
+		 <div class="col c3">
+			<h3>C3</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit [...]</p>
+		</div>
+		
+		<div class="col c3">
+			<h3>C3</h3>
+			<p>Ut enim ad minim veniam, quis nostrud exercitation [...]</p>
+		</div>
+	</div>
+
+	
+	<div class="row">
+		<div class="col c8">
+			<h2>C8</h2>
+			<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+			<h3>C8</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt <a href="#">ut labore et dolore</a> magna aliqua. Ut enim ad minim ven iam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
+
+ 		<div class="col c4">
+			<h2>C4</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt <a href="#">ut labore et dolore</a> magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborm.</p>
+		</div>
+	</div>
+
+  <!-- TemplateEndEditable -->
+ 
+	<div id="footer" class="row">
+		<div class="col c12 aligncenter smaller">
+			<h3>This web site does not use cookies, collect, or store any data from visitors.</h3>
+			<p> The C3D web site is maintained  as a resource for the biomechanics community.<br>
+              <a href="../updates.html">Updated</a> on 
+              <!-- #BeginDate format:Am1 -->January 12, 2023<!-- #EndDate --></p>
+		</div>
+	</div>
+ </div>
+</body>
+</html>

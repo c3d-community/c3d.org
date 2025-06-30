@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+<html lang="en"><!-- InstanceBegin template="/Templates/c3d.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+	<meta charset="utf-8" />
+	<meta name="author" content="Motion Lab Systems, Inc." />
+	<link href='https://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css' />
+	<link rel="stylesheet" type="text/css" href="c3d.css" title="C3D" media="all" />
+	<meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9">
+  <!-- InstanceBeginEditable name="doctitle" -->
+    <meta name="Description" content="The C3D file format specification and documentation" />
+    <meta name="Keywords" content="C3D, motion capture, biomechanics, animation, 3D motion capture, gaitlab, motion lab" /> 
+	<title>C3D.ORG - The biomechanics standard file format</title>
+  <!-- InstanceEndEditable -->
+  <link rel="shortcut icon" href="favicon.ico"/>
+  
+  <style>
+    body {background-image: url("images/C3D.gif"); background-repeat: repeat;}
+  </style>
+  
+</head>
+
+
+<body>
+<div id="layout">
+
+  <div class="header">
+    <a href="index.html" class="logo">C3D.ORG</a>
+    <div class="header-right">
+	  <a href="HTML/default.htm" target="_blank">Help</a>
+	<!-- InstanceBeginEditable name="menu" -->
+      <a href="../c3ddocs.html">Documentation</a>
+      <a class="active" href="../introduction.html">Introduction</a>
+      <a href="../overview.html">Overview</a>
+	<!-- InstanceEndEditable -->
+    </div>
+  </div>
+   
+   <!-- InstanceBeginEditable name="content" -->
+
+    <div class="row">
+		<div class="col c12 alignjustify">
+		<h3>An introduction to C3D files</h3>
+		<p>Clinical Gait, Biomechanics Laboratories and Motion Capture studios around the world use a wide variety of motion capture systems manufactured by many different companies. In the early days of motion capture, each manufacturer wrote software that stored the data in their own unique digital file format and as a result, it was common to find that a study performed in one laboratory could not be compared with the results from an identical study performed in another lab using a different motion capture system. In some cases, manufacturers introduced new systems and upgraded systems storing data in formats that were incompatible with the previous data recorded in the same laboratory.</p>
+		<p>As a result, users had no way to share any of the results of their studies or easily submit data to peer review - except with another member of the same club. Each user had to either write their own software, or use software specific to the manufacturer of their 3D capture system.</p>
+		<p>This situation changed with the introduction of the C3D file format and its gradual adoption by the motion capture and biomechanics communities. The C3D file format provides a "Rosetta Stone" that can make data from any manufacturer intelligible to any user as the format has the following properties:</p>
+		<p>The ability to store 3D and analog data in an unprocessed form. Data can be stored as processed data within the C3D format but the basic file format stores raw 3D coordinate and analog sample data, together with information that describes the stored data. The C3D format provides the following features:</p>
+		<ul>
+		  <li>Preserves information that describes the physical data collection environment  of the laboratory such as EMG channels used, force plate positions, force plate types, marker sets, etc.</li>
+		  <li>Stores 3D and analog trial information relating to the circumstances of the test session such as the number of 3D points monitored, 3D and analog sample rates,  EMG muscles recorded etc.</li>
+		  <li>Potentially stores subject information - name, age at trial, with physical parameters such as weight, leg length etc.</li>
+		  <li>Stores calculated analysis results such as gait timing, cycle information and related information.</li>
+		  <li>Extensibility - the C3D format provides the ability to store new information without making older data obsolete.</li>
+		  <li>The public specification and format description of the C3D format allows anyone to access data without depending on a manufacturer for information.</li>
+		  </ul>
+		<p>The C3D file format has been proved in continuous use since 1987. The original C3D data file format was developed by Dr. Andrew Dainis - this version is described in a published C3D file specification which is freely available from this web site. The format is widely used at the National Institutes of Health Biomechanics Laboratory in Bethesda, Maryland as well as many other leading Biomechanics Laboratories throughout the world.</p>
+		<p>The design of the C3D file format was originally driven by the need for a convenient and efficient format to store data. The format stores 3D coordinate and numeric data for any measurement trial, with all the various parameters that describe the data, in a single file. This largely eliminates the need for motion related data to travel around with additional notes and test information (which usually gets separated from the data at some point in its travels).</p>
+		<p>The ability to store a multitude of information about the data is the feature that sets the C3D format apart from every other biomechanics format. Early in the design of the C3D format it was realized that it was unlikely that one, ironclad, specification would fit every biomechanics need. As a result the C3D file usually stores a small number of common parameters that describe the 3D data and then allows the users to define, generate, and store within the file any number of user or lab defined data items so that anyone opening the C3D file can access them.</p>
+		<p>As a result, adding parameter information to a C3D file is very easy. Since the C3D format is not tied to any specific manufacturer it can be freely adapted to store the information that the users require without making a commitment to any specific manufacturer.</p>
+		<h3>The C3D format description</h3>
+		<p>The C3D file format provides a means of storing all the raw data and other information required to interpret or analyze the raw data at a later stage. Data stored in the C3D format can provide a means of standardizing the interchange of information and can enable multi-user studies across a wide variety of manufacturers hardware and software platforms.</p>
+		<p>The C3D format treats information as if it belongs to one of two classes:</p>
+		<h4>Physical Measurements</h4>
+		<p>The C3D specification expects physical measurements to be one of two types, either positional information (3D coordinates) or numeric data (analog information).</p>
+		<ul>
+		  <li>Each 3D coordinate is stored as a raw X, Y, Z data samples with information about the sample - accuracy (the average error or residual), and camera contribution (which cameras were used to produce the data).</li>
+		  <li>Each sample of numeric data can contain analog information from sources such as EMG and Force Plates etc. and is linked to the 3D samples so that it is easy to determine the correct numeric data values for any 3D sample within the file. If desired (for high analog rates etc.) The C3D format can store multiple numeric samples per 3D coordinate sample. As a result many C3D files contain both analog and 3D data linked frame by frame which is a big improvement over the OEM formats that store analog and video data separately. Storing related information in a single file gives a greater degree of confidence in the data and makes it easier to retrieve the relevant data.</li>
+		  </ul>
+		<h4>Parameter Information</h4>
+		<p>In addition to physical measurement data, a typical C3D file will also contain information about the data such as measurement units and data point labels etc. However, unlike most manufacturer designed formats, the C3D file format can also store database information such as the subjects name, diagnosis and other items that may be specific to an evaluation protocol or an individual laboratory. All that is required to share this data between different labs is that they both agree that the shared data should have a particular name. The contents of the data or the nature of the accessing system is immaterial once the laboratories agree on the description and name of any particular item.</p>
+        </div>
+	</div>
+  <!-- InstanceEndEditable -->
+ 
+	<div id="footer" class="row">
+		<div class="col c12 aligncenter smaller">
+			<h3>This web site does not use cookies, collect, or store any data from visitors.</h3>
+			<p> The C3D web site is maintained  as a resource for the biomechanics community.<br>
+              <a href="updates.html">Updated</a> on 
+              <!-- #BeginDate format:Am1 -->January 12, 2023<!-- #EndDate --></p>
+		</div>
+	</div>
+ </div>
+</body>
+<!-- InstanceEnd --></html>

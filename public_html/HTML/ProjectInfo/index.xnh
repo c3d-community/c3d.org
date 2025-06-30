@@ -1,0 +1,929 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<indexes>
+    <item name="3D Data" id="58249">
+        <topics>
+            <topic url="Documents/gloss_3ddata.htm" window="d2hWnd_SecondaryPopup">3D Data</topic>
+        </topics>
+    </item>
+    <item name="3D Data - Floating-point Format" id="58132">
+        <topics>
+            <topic url="Documents/3ddatafloatingpointformat.htm" window="right">3D Data - Floating-point Format</topic>
+        </topics>
+    </item>
+    <item name="3D Data - Integer Format" id="58130">
+        <topics>
+            <topic url="Documents/3ddataintegerformat.htm" window="right">3D Data - Integer Format</topic>
+        </topics>
+    </item>
+    <item name="3D Frame" id="58250">
+        <topics>
+            <topic url="Documents/gloss_3dframe.htm" window="d2hWnd_SecondaryPopup">3D Frame</topic>
+        </topics>
+    </item>
+    <item name="3D Point" id="58251">
+        <topics>
+            <topic url="Documents/gloss_3dpoint.htm" window="d2hWnd_SecondaryPopup">3D Point</topic>
+        </topics>
+    </item>
+    <item name="3D Point Data" id="58142">
+        <topics>
+            <topic url="Documents/3dpointdata.htm" window="right">3D Point Data</topic>
+        </topics>
+    </item>
+    <item name="3D Point data format" id="58108">
+        <topics>
+            <topic url="Documents/3dpointdataformat.htm" window="right">3D Point data format</topic>
+        </topics>
+    </item>
+    <item name="3D Point Residuals" id="58134">
+        <topics>
+            <topic url="Documents/3dpointresiduals.htm" window="right">3D Point Residuals</topic>
+        </topics>
+    </item>
+    <item name="A Brief History" id="58098">
+        <topics>
+            <topic url="Documents/abriefhistory.htm" window="right">A Brief History</topic>
+        </topics>
+    </item>
+    <item name="A C3D Synopsis" id="58097">
+        <topics>
+            <topic url="Documents/ac3dsynopsis.htm" window="right">A C3D Synopsis</topic>
+        </topics>
+    </item>
+    <item name="ADC" id="58253">
+        <topics>
+            <topic url="Documents/gloss_adc.htm" window="d2hWnd_SecondaryPopup">ADC</topic>
+        </topics>
+    </item>
+    <item name="Additional Analog Parameters" id="58186">
+        <topics>
+            <topic url="Documents/additionalanalogparameters.htm" window="right">Additional Analog Parameters</topic>
+        </topics>
+    </item>
+    <item name="Additional FORCE_PLATFORM parameters" id="58192">
+        <topics>
+            <topic url="Documents/additionalforceplatformparameters.htm" window="right">Additional FORCE_PLATFORM parameters</topic>
+        </topics>
+    </item>
+    <item name="Additional Parameters" id="58181">
+        <topics>
+            <topic url="Documents/additionalparameters.htm" window="right">Additional Parameters</topic>
+        </topics>
+    </item>
+    <item name="Additional POINT parameters" id="58182">
+        <topics>
+            <topic url="Documents/additionalpointparameters.htm" window="right">Additional POINT parameters</topic>
+        </topics>
+    </item>
+    <item name="Alternative data formats" id="58110">
+        <topics>
+            <topic url="Documents/alternativedataformats.htm" window="right">Alternative data formats</topic>
+        </topics>
+    </item>
+    <item name="Analog Data" id="58143">
+        <topics>
+            <topic url="Documents/analogdata.htm" window="right">Analog Data</topic>
+        </topics>
+    </item>
+    <item name="Analog Data - Floating-point format" id="58139">
+        <topics>
+            <topic url="Documents/analogdatafloatingpointformat.htm" window="right">Analog Data - Floating-point format</topic>
+        </topics>
+    </item>
+    <item name="Analog Data - Integer Format" id="58137">
+        <topics>
+            <topic url="Documents/analogdataintegerformat.htm" window="right">Analog Data - Integer Format</topic>
+        </topics>
+    </item>
+    <item name="Analog Data Sample" id="58254">
+        <topics>
+            <topic url="Documents/gloss_analogdatasample.htm" window="d2hWnd_SecondaryPopup">Analog Data Sample</topic>
+        </topics>
+    </item>
+    <item name="Analog Data Storage" id="58136">
+        <topics>
+            <topic url="Documents/analogdatastorage.htm" window="right">Analog Data Storage</topic>
+        </topics>
+    </item>
+    <item name="Analog Sample Format" id="58255">
+        <topics>
+            <topic url="Documents/gloss_analogsampleformat.htm" window="d2hWnd_SecondaryPopup">Analog Sample Format</topic>
+        </topics>
+    </item>
+    <item name="Analog Sample Rate" id="58256">
+        <topics>
+            <topic url="Documents/gloss_analogsamplerate.htm" window="d2hWnd_SecondaryPopup">Analog Sample Rate</topic>
+        </topics>
+    </item>
+    <item name="ANALOG:BITS" id="58168">
+        <topics>
+            <topic url="Documents/analogbits.htm" window="right">ANALOG:BITS</topic>
+        </topics>
+    </item>
+    <item name="ANALOG:DESCRIPTIONS" id="58157">
+        <topics>
+            <topic url="Documents/analogdescriptions.htm" window="right">ANALOG:DESCRIPTIONS</topic>
+        </topics>
+    </item>
+    <item name="ANALOG:DESCRIPTIONS2" id="58188">
+        <topics>
+            <topic url="Documents/analogdescriptions2.htm" window="right">ANALOG:DESCRIPTIONS2</topic>
+        </topics>
+    </item>
+    <item name="ANALOG:FORMAT" id="58167">
+        <topics>
+            <topic url="Documents/analogformat.htm" window="right">ANALOG:FORMAT</topic>
+        </topics>
+    </item>
+    <item name="ANALOG:GAIN" id="58214">
+        <topics>
+            <topic url="Documents/analoggain1.htm" window="right">ANALOG:GAIN</topic>
+        </topics>
+    </item>
+    <item name="ANALOG:GEN_SCALE" id="58158">
+        <topics>
+            <topic url="Documents/analoggenscale.htm" window="right">ANALOG:GEN_SCALE</topic>
+        </topics>
+    </item>
+    <item name="ANALOG:LABELS" id="58156">
+        <topics>
+            <topic url="Documents/analoglabels.htm" window="right">ANALOG:LABELS</topic>
+        </topics>
+    </item>
+    <item name="ANALOG:LABELS2" id="58187">
+        <topics>
+            <topic url="Documents/analoglabels2.htm" window="right">ANALOG:LABELS2</topic>
+        </topics>
+    </item>
+    <item name="ANALOG:OFFSET" id="58159">
+        <topics>
+            <topic url="Documents/analogoffset.htm" window="right">ANALOG:OFFSET</topic>
+        </topics>
+    </item>
+    <item name="ANALOG:OFFSET2" id="58190">
+        <topics>
+            <topic url="Documents/analogoffset2.htm" window="right">ANALOG:OFFSET2</topic>
+        </topics>
+    </item>
+    <item name="ANALOG:RATE" id="58166">
+        <topics>
+            <topic url="Documents/analograte1.htm" window="right">ANALOG:RATE</topic>
+        </topics>
+    </item>
+    <item name="ANALOG:SCALE" id="58162">
+        <topics>
+            <topic url="Documents/analogscale.htm" window="right">ANALOG:SCALE</topic>
+        </topics>
+    </item>
+    <item name="ANALOG:SCALE2" id="58189">
+        <topics>
+            <topic url="Documents/analogscale2.htm" window="right">ANALOG:SCALE2</topic>
+        </topics>
+    </item>
+    <item name="ANALOG:UNITS" id="58161">
+        <topics>
+            <topic url="Documents/analogunits.htm" window="right">ANALOG:UNITS</topic>
+        </topics>
+    </item>
+    <item name="ANALOG:UNITS2" id="58191">
+        <topics>
+            <topic url="Documents/analogunits2.htm" window="right">ANALOG:UNITS2</topic>
+        </topics>
+    </item>
+    <item name="ANALOG:USED" id="58155">
+        <topics>
+            <topic url="Documents/analogused1.htm" window="right">ANALOG:USED</topic>
+        </topics>
+    </item>
+    <item name="Appendix" id="58232">
+        <topics>
+            <topic url="Documents/appendix.htm" window="right">Appendix</topic>
+        </topics>
+    </item>
+    <item name="Application Parameters" id="58213">
+        <topics>
+            <topic url="Documents/applicationparameters.htm" window="right">Application Parameters</topic>
+        </topics>
+    </item>
+    <item name="Arrays" id="58257">
+        <topics>
+            <topic url="Documents/gloss_arrays.htm" window="d2hWnd_SecondaryPopup">Arrays</topic>
+        </topics>
+    </item>
+    <item name="ASCII" id="58252">
+        <topics>
+            <topic url="Documents/gloss_ascii.htm" window="d2hWnd_SecondaryPopup">ASCII</topic>
+        </topics>
+    </item>
+    <item name="Binary formats" id="58160">
+        <topics>
+            <topic url="Documents/analogoffset.htm" window="right">ANALOG:OFFSET</topic>
+        </topics>
+    </item>
+    <item name="Block" id="58258">
+        <topics>
+            <topic url="Documents/gloss_block.htm" window="d2hWnd_SecondaryPopup">Block</topic>
+        </topics>
+    </item>
+    <item name="Bytes" id="58259">
+        <topics>
+            <topic url="Documents/gloss_bytes.htm" window="d2hWnd_SecondaryPopup">Bytes</topic>
+        </topics>
+    </item>
+    <item name="C3D file description" id="58104">
+        <topics>
+            <topic url="Documents/c3dfiledescription.htm" window="right">C3D file description</topic>
+        </topics>
+    </item>
+    <item name="C3D Groups and Parameters" id="58122">
+        <topics>
+            <topic url="Documents/c3dgroupsandparameters.htm" window="right">C3D Groups and Parameters</topic>
+        </topics>
+    </item>
+    <item name="C3D Parameters" id="58246">
+        <topics>
+            <topic url="Documents/c3dparameters.htm" window="right">C3D Parameters</topic>
+        </topics>
+    </item>
+    <item name="Calculating SCALE values for EMG systems" id="58163">
+        <topics>
+            <topic url="Documents/calculatingscalevaluesforemgsystems.htm" window="right">Calculating SCALE values for EMG systems</topic>
+        </topics>
+    </item>
+    <item name="Calculating SCALE values for force plates" id="58165">
+        <topics>
+            <topic url="Documents/calculatingscalevaluesforforceplates.htm" window="right">Calculating SCALE values for force plates</topic>
+        </topics>
+    </item>
+    <item name="Calculating SCALE values for load cells" id="58164">
+        <topics>
+            <topic url="Documents/calculatingscalevaluesforloadcells.htm" window="right">Calculating SCALE values for load cells</topic>
+        </topics>
+    </item>
+    <item name="CAMARC" id="58260">
+        <topics>
+            <topic url="Documents/gloss_camarc.htm" window="d2hWnd_SecondaryPopup">CAMARC</topic>
+        </topics>
+    </item>
+    <item name="Camera Contribution" id="58261">
+        <topics>
+            <topic url="Documents/gloss_cameracontribution.htm" window="d2hWnd_SecondaryPopup">Camera Contribution</topic>
+        </topics>
+    </item>
+    <item name="Camera Contribution Mask" id="58135">
+        <topics>
+            <topic url="Documents/cameracontributionmask.htm" window="right">Camera Contribution Mask</topic>
+        </topics>
+    </item>
+    <item name="Characters" id="58262">
+        <topics>
+            <topic url="Documents/gloss_characters.htm" window="d2hWnd_SecondaryPopup">Characters</topic>
+        </topics>
+    </item>
+    <item name="Choosing a C3D format" id="58244">
+        <topics>
+            <topic url="Documents/choosingac3dformat1.htm" window="right">Choosing a C3D format</topic>
+        </topics>
+    </item>
+    <item name="Data encryption" id="58231">
+        <topics>
+            <topic url="Documents/dataencryption.htm" window="right">Data encryption</topic>
+        </topics>
+    </item>
+    <item name="Data Section" id="58107">
+        <topics>
+            <topic url="Documents/datasection.htm" window="right">Data Section</topic>
+        </topics>
+    </item>
+    <item name="Data storage" id="58109">
+        <topics>
+            <topic url="Documents/datastorage.htm" window="right">Data storage</topic>
+        </topics>
+    </item>
+    <item name="Data Synchronization" id="58101">
+        <topics>
+            <topic url="Documents/datasynchronization.htm" window="right">Data Synchronization</topic>
+        </topics>
+    </item>
+    <item name="DEC, Intel, and SGI/MIPS" id="58263">
+        <topics>
+            <topic url="Documents/gloss_decintelandsgimips1.htm" window="d2hWnd_SecondaryPopup">DEC, Intel, and SGI/MIPS</topic>
+        </topics>
+    </item>
+    <item name="Description" id="58129">
+        <topics>
+            <topic url="Documents/description1.htm" window="right">Description</topic>
+        </topics>
+    </item>
+    <item name="Diagnosing C3D problems" id="58242">
+        <topics>
+            <topic url="Documents/diagnosingc3dproblems.htm" window="right">Diagnosing C3D problems</topic>
+        </topics>
+    </item>
+    <item name="Endian" id="58264">
+        <topics>
+            <topic url="Documents/gloss_endian.htm" window="d2hWnd_SecondaryPopup">Endian</topic>
+        </topics>
+    </item>
+    <item name="Event interpretation" id="58117">
+        <topics>
+            <topic url="Documents/eventinterpretation1.htm" window="right">Event interpretation</topic>
+        </topics>
+    </item>
+    <item name="Event labels" id="58116">
+        <topics>
+            <topic url="Documents/eventlabels2.htm" window="right">Event labels</topic>
+        </topics>
+    </item>
+    <item name="Event status" id="58115">
+        <topics>
+            <topic url="Documents/eventstatus1.htm" window="right">Event status</topic>
+        </topics>
+    </item>
+    <item name="Event times" id="58114">
+        <topics>
+            <topic url="Documents/eventtimes2.htm" window="right">Event times</topic>
+        </topics>
+    </item>
+    <item name="EVENT:CONTEXTS" id="58201">
+        <topics>
+            <topic url="Documents/eventcontexts.htm" window="right">EVENT:CONTEXTS</topic>
+        </topics>
+    </item>
+    <item name="EVENT:DESCRIPTIONS" id="58203">
+        <topics>
+            <topic url="Documents/eventdescriptions.htm" window="right">EVENT:DESCRIPTIONS</topic>
+        </topics>
+    </item>
+    <item name="EVENT:GENERIC_FLAGS" id="58207">
+        <topics>
+            <topic url="Documents/eventgenericflags.htm" window="right">EVENT:GENERIC_FLAGS</topic>
+        </topics>
+    </item>
+    <item name="EVENT:ICON_IDS" id="58206">
+        <topics>
+            <topic url="Documents/eventiconids.htm" window="right">EVENT:ICON_IDS</topic>
+        </topics>
+    </item>
+    <item name="EVENT:LABELS" id="58202">
+        <topics>
+            <topic url="Documents/eventlabels1.htm" window="right">EVENT:LABELS</topic>
+        </topics>
+    </item>
+    <item name="EVENT:SUBJECTS" id="58205">
+        <topics>
+            <topic url="Documents/eventsubjects.htm" window="right">EVENT:SUBJECTS</topic>
+        </topics>
+    </item>
+    <item name="EVENT:TIMES" id="58204">
+        <topics>
+            <topic url="Documents/eventtimes1.htm" window="right">EVENT:TIMES</topic>
+        </topics>
+    </item>
+    <item name="EVENT:USED" id="58200">
+        <topics>
+            <topic url="Documents/eventused.htm" window="right">EVENT:USED</topic>
+        </topics>
+    </item>
+    <item name="EVENT_CONTEXT:COLOURS" id="58212">
+        <topics>
+            <topic url="Documents/eventcontextcolours.htm" window="right">EVENT_CONTEXT:COLOURS</topic>
+        </topics>
+    </item>
+    <item name="EVENT_CONTEXT:ICON_IDS" id="58210">
+        <topics>
+            <topic url="Documents/eventcontexticonids.htm" window="right">EVENT_CONTEXT:ICON_IDS</topic>
+        </topics>
+    </item>
+    <item name="EVENT_CONTEXT:LABELS" id="58211">
+        <topics>
+            <topic url="Documents/eventcontextlabels.htm" window="right">EVENT_CONTEXT:LABELS</topic>
+        </topics>
+    </item>
+    <item name="EVENT_CONTEXT:USED" id="58209">
+        <topics>
+            <topic url="Documents/eventcontextused.htm" window="right">EVENT_CONTEXT:USED</topic>
+        </topics>
+    </item>
+    <item name="Floating-point" id="58265">
+        <topics>
+            <topic url="Documents/gloss_floatingpoint1.htm" window="d2hWnd_SecondaryPopup">Floating-point</topic>
+        </topics>
+    </item>
+    <item name="FORCE_PLATFORM:CAL_MATRIX" id="58193">
+        <topics>
+            <topic url="Documents/forceplatformcalmatrix.htm" window="right">FORCE_PLATFORM:CAL_MATRIX</topic>
+        </topics>
+    </item>
+    <item name="FORCE_PLATFORM:CHANNEL" id="58180">
+        <topics>
+            <topic url="Documents/forceplatformchannel.htm" window="right">FORCE_PLATFORM:CHANNEL</topic>
+        </topics>
+    </item>
+    <item name="FORCE_PLATFORM:CORNERS" id="58178">
+        <topics>
+            <topic url="Documents/forceplatformcorners.htm" window="right">FORCE_PLATFORM:CORNERS</topic>
+        </topics>
+    </item>
+    <item name="FORCE_PLATFORM:ORIGIN" id="58179">
+        <topics>
+            <topic url="Documents/forceplatformorigin.htm" window="right">FORCE_PLATFORM:ORIGIN</topic>
+        </topics>
+    </item>
+    <item name="FORCE_PLATFORM:TYPE" id="58172">
+        <topics>
+            <topic url="Documents/forceplatformtype.htm" window="right">FORCE_PLATFORM:TYPE</topic>
+        </topics>
+    </item>
+    <item name="FORCE_PLATFORM:USED" id="58171">
+        <topics>
+            <topic url="Documents/forceplatformused1.htm" window="right">FORCE_PLATFORM:USED</topic>
+        </topics>
+    </item>
+    <item name="FORCE_PLATFORM:ZERO" id="58177">
+        <topics>
+            <topic url="Documents/forceplatformzero.htm" window="right">FORCE_PLATFORM:ZERO</topic>
+        </topics>
+    </item>
+    <item name="Glossary of Terms" id="58248">
+        <topics>
+            <topic url="Documents/glossaryofterms.htm" window="right">Glossary of Terms</topic>
+        </topics>
+    </item>
+    <item name="Group Format" id="58123">
+        <topics>
+            <topic url="Documents/groupformat1.htm" window="right">Group Format</topic>
+        </topics>
+    </item>
+    <item name="Header events" id="58113">
+        <topics>
+            <topic url="Documents/headerevents1.htm" window="right">Header events</topic>
+        </topics>
+    </item>
+    <item name="Header Record function" id="58118">
+        <topics>
+            <topic url="Documents/headerrecordfunction.htm" window="right">Header Record function</topic>
+        </topics>
+    </item>
+    <item name="Header Section" id="58105">
+        <topics>
+            <topic url="Documents/headersection.htm" window="right">Header Section</topic>
+        </topics>
+    </item>
+    <item name="Integer" id="58266">
+        <topics>
+            <topic url="Documents/gloss_integer.htm" window="d2hWnd_SecondaryPopup">Integer</topic>
+        </topics>
+    </item>
+    <item name="Integers and Bytes" id="58238">
+        <topics>
+            <topic url="Documents/integersandbytes.htm" window="right">Integers and Bytes</topic>
+        </topics>
+    </item>
+    <item name="Introduction" id="58096">
+        <topics>
+            <topic url="Documents/introduction.htm" window="right">Introduction</topic>
+        </topics>
+    </item>
+    <item name="Locked Parameters" id="58126">
+        <topics>
+            <topic url="Documents/lockedparameters1.htm" window="right">Locked Parameters</topic>
+        </topics>
+    </item>
+    <item name="LONG_FRAMES" id="58183">
+        <topics>
+            <topic url="Documents/longframes.htm" window="right">LONG_FRAMES</topic>
+        </topics>
+    </item>
+    <item name="Maintaining C3D frame count compatibility" id="58237">
+        <topics>
+            <topic url="Documents/maintainingc3dframecountcompatibility1.htm" window="right">Maintaining C3D frame count compatibility</topic>
+        </topics>
+    </item>
+    <item name="MANUFACTURER:COMPANY" id="58217">
+        <topics>
+            <topic url="Documents/manufacturercompany.htm" window="right">MANUFACTURER:COMPANY</topic>
+        </topics>
+    </item>
+    <item name="MANUFACTURER:EDITED" id="58220">
+        <topics>
+            <topic url="Documents/manufactureredited.htm" window="right">MANUFACTURER:EDITED</topic>
+        </topics>
+    </item>
+    <item name="MANUFACTURER:SOFTWARE" id="58218">
+        <topics>
+            <topic url="Documents/manufacturersoftware.htm" window="right">MANUFACTURER:SOFTWARE</topic>
+        </topics>
+    </item>
+    <item name="MANUFACTURER:VERSION" id="58219">
+        <topics>
+            <topic url="Documents/manufacturerversion.htm" window="right">MANUFACTURER:VERSION</topic>
+        </topics>
+    </item>
+    <item name="Notes for programmers - C3D Header" id="58119">
+        <topics>
+            <topic url="Documents/notesforprogrammersc3dheader.htm" window="right">Notes for programmers - C3D Header</topic>
+        </topics>
+    </item>
+    <item name="Notes for programmers - Floating-point 3D Data" id="58133">
+        <topics>
+            <topic url="Documents/notesforprogrammersfloatingpoint3ddata1.htm" window="right">Notes for programmers - Floating-point 3D Data</topic>
+        </topics>
+    </item>
+    <item name="Notes for programmers - Floating-point Analog Data" id="58140">
+        <topics>
+            <topic url="Documents/notesforprogrammersfloatingpointanalogdata1.htm" window="right">Notes for programmers - Floating-point Analog Data</topic>
+        </topics>
+    </item>
+    <item name="Notes for programmers - Integer 3D Data" id="58131">
+        <topics>
+            <topic url="Documents/notesforprogrammersinteger3ddata.htm" window="right">Notes for programmers - Integer 3D Data</topic>
+        </topics>
+    </item>
+    <item name="Notes for programmers - Integer Analog Data" id="58138">
+        <topics>
+            <topic url="Documents/notesforprogrammersintegeranalogdata.htm" window="right">Notes for programmers - Integer Analog Data</topic>
+        </topics>
+    </item>
+    <item name="Notes for programmers - Parameters and Groups" id="58127">
+        <topics>
+            <topic url="Documents/notesforprogrammersparametersandgroups.htm" window="right">Notes for programmers - Parameters and Groups</topic>
+        </topics>
+    </item>
+    <item name="Overview" id="58103">
+        <topics>
+            <topic url="Documents/overview.htm" window="right">Overview</topic>
+        </topics>
+    </item>
+    <item name="Parameter Arrays" id="58125">
+        <topics>
+            <topic url="Documents/parameterarrays1.htm" window="right">Parameter Arrays</topic>
+        </topics>
+    </item>
+    <item name="Parameter Format" id="58124">
+        <topics>
+            <topic url="Documents/parameterformat1.htm" window="right">Parameter Format</topic>
+        </topics>
+    </item>
+    <item name="Parameter header" id="58121">
+        <topics>
+            <topic url="Documents/parameterheader.htm" window="right">Parameter header</topic>
+        </topics>
+    </item>
+    <item name="Parameter Information" id="58102">
+        <topics>
+            <topic url="Documents/parameterinformation.htm" window="right">Parameter Information</topic>
+        </topics>
+    </item>
+    <item name="Parameter interpretation" id="58247">
+        <topics>
+            <topic url="Documents/parameterinterpretation.htm" window="right">Parameter interpretation</topic>
+        </topics>
+    </item>
+    <item name="Parameter Section" id="58106">
+        <topics>
+            <topic url="Documents/parametersection.htm" window="right">Parameter Section</topic>
+        </topics>
+    </item>
+    <item name="Parameters" id="58267">
+        <topics>
+            <topic url="Documents/gloss_parameters.htm" window="d2hWnd_SecondaryPopup">Parameters</topic>
+        </topics>
+    </item>
+    <item name="Physical Measurements" id="58100">
+        <topics>
+            <topic url="Documents/physicalmeasurements.htm" window="right">Physical Measurements</topic>
+        </topics>
+    </item>
+    <item name="POINT:DATA_START" id="58149">
+        <topics>
+            <topic url="Documents/pointdatastart1.htm" window="right">POINT:DATA_START</topic>
+        </topics>
+    </item>
+    <item name="POINT:DESCRIPTIONS" id="58152">
+        <topics>
+            <topic url="Documents/pointdescriptions.htm" window="right">POINT:DESCRIPTIONS</topic>
+        </topics>
+    </item>
+    <item name="POINT:DESCRIPTIONS2" id="58185">
+        <topics>
+            <topic url="Documents/pointdescriptions2.htm" window="right">POINT:DESCRIPTIONS2</topic>
+        </topics>
+    </item>
+    <item name="POINT:FRAMES" id="58150">
+        <topics>
+            <topic url="Documents/pointframes1.htm" window="right">POINT:FRAMES</topic>
+        </topics>
+    </item>
+    <item name="POINT:LABELS" id="58151">
+        <topics>
+            <topic url="Documents/pointlabels.htm" window="right">POINT:LABELS</topic>
+        </topics>
+    </item>
+    <item name="POINT:LABELS2" id="58184">
+        <topics>
+            <topic url="Documents/pointlabels2.htm" window="right">POINT:LABELS2</topic>
+        </topics>
+    </item>
+    <item name="POINT:RATE" id="58148">
+        <topics>
+            <topic url="Documents/pointrate1.htm" window="right">POINT:RATE</topic>
+        </topics>
+    </item>
+    <item name="POINT:SCALE" id="58147">
+        <topics>
+            <topic url="Documents/pointscale1.htm" window="right">POINT:SCALE</topic>
+        </topics>
+    </item>
+    <item name="POINT:UNITS" id="58153">
+        <topics>
+            <topic url="Documents/pointunits.htm" window="right">POINT:UNITS</topic>
+        </topics>
+    </item>
+    <item name="POINT:USED" id="58146">
+        <topics>
+            <topic url="Documents/pointused1.htm" window="right">POINT:USED</topic>
+        </topics>
+    </item>
+    <item name="POINT:X_SCREEN" id="58221">
+        <topics>
+            <topic url="Documents/pointxscreen.htm" window="right">POINT:X_SCREEN</topic>
+        </topics>
+    </item>
+    <item name="POINT:Y_SCREEN" id="58222">
+        <topics>
+            <topic url="Documents/pointyscreen.htm" window="right">POINT:Y_SCREEN</topic>
+        </topics>
+    </item>
+    <item name="Preface" id="58095">
+        <topics>
+            <topic url="Documents/preface.htm" window="right">Preface</topic>
+        </topics>
+    </item>
+    <item name="Raw data" id="58268">
+        <topics>
+            <topic url="Documents/gloss_rawdata.htm" window="d2hWnd_SecondaryPopup">Raw data</topic>
+        </topics>
+    </item>
+    <item name="Reading the frame count" id="58234">
+        <topics>
+            <topic url="Documents/readingtheframecount.htm" window="right">Reading the frame count</topic>
+        </topics>
+    </item>
+    <item name="REAL" id="58269">
+        <topics>
+            <topic url="Documents/gloss_real.htm" window="d2hWnd_SecondaryPopup">REAL</topic>
+        </topics>
+    </item>
+    <item name="Records" id="58270">
+        <topics>
+            <topic url="Documents/gloss_records.htm" window="d2hWnd_SecondaryPopup">Records</topic>
+        </topics>
+    </item>
+    <item name="Repairing C3D files" id="58243">
+        <topics>
+            <topic url="Documents/repairingc3dfiles.htm" window="right">Repairing C3D files</topic>
+        </topics>
+    </item>
+    <item name="Required Parameters" id="58144">
+        <topics>
+            <topic url="Documents/requiredparameters.htm" window="right">Required Parameters</topic>
+        </topics>
+    </item>
+    <item name="Residual" id="58271">
+        <topics>
+            <topic url="Documents/gloss_residual.htm" window="d2hWnd_SecondaryPopup">Residual</topic>
+        </topics>
+    </item>
+    <item name="Revision History" id="58093">
+        <topics>
+            <topic url="Documents/revisionhistory.htm" window="right">Revision History</topic>
+        </topics>
+    </item>
+    <item name="Sample Rate Limitations" id="58245">
+        <topics>
+            <topic url="Documents/sampleratelimitations.htm" window="right">Sample Rate Limitations</topic>
+        </topics>
+    </item>
+    <item name="Scaling Factors" id="58094">
+        <topics>
+            <topic url="Documents/revisionhistory.htm#april720022.htm" window="right">Revision History</topic>
+        </topics>
+    </item>
+    <item name="Scaling Resolution" id="58141">
+        <topics>
+            <topic url="Documents/scalingresolution.htm" window="right">Scaling Resolution</topic>
+        </topics>
+    </item>
+    <item name="Section" id="58272">
+        <topics>
+            <topic url="Documents/gloss_section.htm" window="d2hWnd_SecondaryPopup">Section</topic>
+        </topics>
+    </item>
+    <item name="SEG:ACC_FACTOR" id="58226">
+        <topics>
+            <topic url="Documents/segaccfactor.htm" window="right">SEG:ACC_FACTOR</topic>
+        </topics>
+    </item>
+    <item name="SEG:DATA_LIMITS" id="58225">
+        <topics>
+            <topic url="Documents/segdatalimits.htm" window="right">SEG:DATA_LIMITS</topic>
+        </topics>
+    </item>
+    <item name="SEG:INTERSECTION_LIMIT" id="58229">
+        <topics>
+            <topic url="Documents/segintersectionlimit.htm" window="right">SEG:INTERSECTION_LIMIT</topic>
+        </topics>
+    </item>
+    <item name="SEG:MARKER_DIAMETER" id="58224">
+        <topics>
+            <topic url="Documents/segmarkerdiameter.htm" window="right">SEG:MARKER_DIAMETER</topic>
+        </topics>
+    </item>
+    <item name="SEG:NOISE_FACTOR" id="58227">
+        <topics>
+            <topic url="Documents/segnoisefactor.htm" window="right">SEG:NOISE_FACTOR</topic>
+        </topics>
+    </item>
+    <item name="SEG:RESIDUAL_ERROR _FACTOR" id="58228">
+        <topics>
+            <topic url="Documents/segresidualerrorfactor.htm" window="right">SEG:RESIDUAL_ERROR _FACTOR</topic>
+        </topics>
+    </item>
+    <item name="Signed numbers" id="58239">
+        <topics>
+            <topic url="Documents/signednumbers.htm" window="right">Signed numbers</topic>
+        </topics>
+    </item>
+    <item name="Specification" id="58111">
+        <topics>
+            <topic url="Documents/specification.htm" window="right">Specification</topic>
+        </topics>
+    </item>
+    <item name="Specifying Force Platform Parameters" id="58170">
+        <topics>
+            <topic url="Documents/specifyingforceplatformparameters.htm" window="right">Specifying Force Platform Parameters</topic>
+        </topics>
+    </item>
+    <item name="The 3D Point Data Section" id="58128">
+        <topics>
+            <topic url="Documents/the3dpointdatasection.htm" window="right">The 3D Point Data Section</topic>
+        </topics>
+    </item>
+    <item name="The ANALOG group" id="58154">
+        <topics>
+            <topic url="Documents/theanaloggroupx.htm" window="right">The ANALOG Group</topic>
+            <topic url="Documents/theanaloggroup.htm" window="right">The ANALOG group</topic>
+        </topics>
+    </item>
+    <item name="The ANALYSIS Group" id="58215">
+        <topics>
+            <topic url="Documents/theanalysisgroup.htm" window="right">The ANALYSIS Group</topic>
+        </topics>
+    </item>
+    <item name="The C3D File Format" id="58091">
+        <topics>
+            <topic url="Documents/thec3dfileformat.htm" window="right">The C3D File Format</topic>
+        </topics>
+    </item>
+    <item name="The C3D File Structure" id="58099">
+        <topics>
+            <topic url="Documents/thec3dfilestructure.htm" window="right">The C3D File Structure</topic>
+        </topics>
+    </item>
+    <item name="The C3D frame count" id="58233">
+        <topics>
+            <topic url="Documents/thec3dframecount.htm" window="right">The C3D frame count</topic>
+        </topics>
+    </item>
+    <item name="The EVENT Group" id="58199">
+        <topics>
+            <topic url="Documents/theeventgroup.htm" window="right">The EVENT Group</topic>
+        </topics>
+    </item>
+    <item name="The EVENT_CONTEXT Group" id="58208">
+        <topics>
+            <topic url="Documents/theeventcontextgroup.htm" window="right">The EVENT_CONTEXT Group</topic>
+        </topics>
+    </item>
+    <item name="The FORCE_PLATFORM group" id="58169">
+        <topics>
+            <topic url="Documents/theforceplatformgroup.htm" window="right">The FORCE_PLATFORM group</topic>
+        </topics>
+    </item>
+    <item name="The Header Section" id="58112">
+        <topics>
+            <topic url="Documents/theheadersection.htm" window="right">The Header Section</topic>
+        </topics>
+    </item>
+    <item name="The MANUFACTURER Group" id="58216">
+        <topics>
+            <topic url="Documents/themanufacturergroup.htm" window="right">The MANUFACTURER Group</topic>
+        </topics>
+    </item>
+    <item name="The Parameter Section" id="58120">
+        <topics>
+            <topic url="Documents/theparametersection.htm" window="right">The Parameter Section</topic>
+        </topics>
+    </item>
+    <item name="The POINT group" id="58145">
+        <topics>
+            <topic url="Documents/thepointgroupx.htm" window="right">The POINT Group</topic>
+            <topic url="Documents/thepointgroup.htm" window="right">The POINT group</topic>
+        </topics>
+    </item>
+    <item name="The SEG Group" id="58223">
+        <topics>
+            <topic url="Documents/theseggroup.htm" window="right">The SEG Group</topic>
+        </topics>
+    </item>
+    <item name="The SUBJECTS Group" id="58230">
+        <topics>
+            <topic url="Documents/thesubjectsgroup.htm" window="right">The SUBJECTS Group</topic>
+        </topics>
+    </item>
+    <item name="The TRIAL frame calculation" id="58197">
+        <topics>
+            <topic url="Documents/thetrialframecalculation.htm" window="right">The TRIAL frame calculation</topic>
+        </topics>
+    </item>
+    <item name="The TRIAL Group" id="58194">
+        <topics>
+            <topic url="Documents/thetrialgroup.htm" window="right">The TRIAL Group</topic>
+        </topics>
+    </item>
+    <item name="Trial" id="58273">
+        <topics>
+            <topic url="Documents/gloss_trial.htm" window="d2hWnd_SecondaryPopup">Trial</topic>
+        </topics>
+    </item>
+    <item name="TRIAL:ACTUAL_END_FIELD" id="58196">
+        <topics>
+            <topic url="Documents/trialactualendfield.htm" window="right">TRIAL:ACTUAL_END_FIELD</topic>
+        </topics>
+    </item>
+    <item name="TRIAL:ACTUAL_START_FIELD" id="58195">
+        <topics>
+            <topic url="Documents/trialactualstartfield.htm" window="right">TRIAL:ACTUAL_START_FIELD</topic>
+        </topics>
+    </item>
+    <item name="TRIAL:CAMERA_RATE" id="58198">
+        <topics>
+            <topic url="Documents/trialcamerarate.htm" window="right">TRIAL:CAMERA_RATE</topic>
+        </topics>
+    </item>
+    <item name="Troubleshooting C3D files" id="58241">
+        <topics>
+            <topic url="Documents/troubleshootingc3dfiles.htm" window="right">Troubleshooting C3D files</topic>
+        </topics>
+    </item>
+    <item name="TYPE-1" id="58173">
+        <topics>
+            <topic url="Documents/type14.htm" window="right">TYPE-1</topic>
+            <topic url="Documents/type15.htm" window="right">TYPE-1</topic>
+        </topics>
+    </item>
+    <item name="TYPE-2" id="58174">
+        <topics>
+            <topic url="Documents/type23.htm" window="right">TYPE-2</topic>
+            <topic url="Documents/type24.htm" window="right">TYPE-2</topic>
+        </topics>
+    </item>
+    <item name="TYPE-3" id="58175">
+        <topics>
+            <topic url="Documents/type3.htm" window="right">TYPE-3</topic>
+            <topic url="Documents/type31.htm" window="right">TYPE-3</topic>
+        </topics>
+    </item>
+    <item name="TYPE-4" id="58176">
+        <topics>
+            <topic url="Documents/type42.htm" window="right">TYPE-4</topic>
+            <topic url="Documents/type43.htm" window="right">TYPE-4</topic>
+        </topics>
+    </item>
+    <item name="Unsigned numbers" id="58240">
+        <topics>
+            <topic url="Documents/unsignednumbers.htm" window="right">Unsigned numbers</topic>
+        </topics>
+    </item>
+    <item name="Updating the C3D frame count" id="58236">
+        <topics>
+            <topic url="Documents/updatingthec3dframecount1.htm" window="right">Updating the C3D frame count</topic>
+        </topics>
+    </item>
+    <item name="Use and Distribution" id="58092">
+        <topics>
+            <topic url="Documents/useanddistribution.htm" window="right">Use and Distribution</topic>
+        </topics>
+    </item>
+    <item name="UTF-8" id="58274">
+        <topics>
+            <topic url="Documents/gloss_utf8.htm" window="d2hWnd_SecondaryPopup">UTF-8</topic>
+        </topics>
+    </item>
+    <item name="Writing the C3D frame count" id="58235">
+        <topics>
+            <topic url="Documents/writingthec3dframecount1.htm" window="right">Writing the C3D frame count</topic>
+        </topics>
+    </item>
+</indexes>

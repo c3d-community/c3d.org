@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html><head><title>UTF-8</title>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" /><link rel="stylesheet" type="text/css" href="../Theme/popupmenu.css" /><link rel="stylesheet" type="text/css" href="../Theme/lf.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/C1H_HTML.css" /><link rel="stylesheet" type="text/css" href="../LinksExt/Glossary.css" />
+<script language="JavaScript" src="../linker.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" src="../special.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" src="../common.js" type="text/JavaScript"></script>
+
+<meta name="Generator" content="ComponentOne Doc-To-Help v.2009.3.0.500" />
+<meta name="D2HTheme" content="C3D v.138" />
+</head>
+<body onmousedown="d2hpopup()" onload="d2hload();d2hProcessHighlight();" style="BACKGROUND-COLOR: lightyellow" relpart="../">
+<script language="JavaScript" type="text/JavaScript">
+//<![CDATA[
+
+if (typeof d2hLoadWindows != "undefined")
+
+    d2hLoadWindows();
+
+
+//]]></script>
+
+<p class="GlossaryHeading">UTF-8</p>
+<p class="MsoBodyText">Encoding user entered text in UTF-8 offers a few advantages 
+over the traditional <a onclick="return d2hpopup(event, this.href)" id="popup_104341" href="gloss_ascii.htm">ASCII</a> <a onclick="return d2hpopup(event, this.href)" id="popup_104339" href="gloss_characters.htm">characters</a> expected in a C3D file.  The 
+ASCII character set only supports the Latin alphabet, while UTF-8 supports 
+Chinese, Japanese, Hebrew, Arabic, etc., thus UTF-8 support makes the C3D file 
+format universally accessible.</p>
+<p class="MsoBodyText">UTF-8 can encode each of the 1,112,064 valid code points in 
+the Unicode code space while remaining backwards compatible with the ASCII 
+character set used in the original C3D format definition.  Therefore, any 
+application that supports UTF-8 will be able to read all C3D files created since 
+the early 1980’s.</p>
+<p class="MsoBodyText">All C3D group and parameter names must use 7-bit ASCII 
+characters to preserve the universally defined C3D format structure.  UTF-8 
+is permitted in the individual group and parameter descriptions which may be 
+created in local character sets for localization support.  Note that most 
+C3D parameter string lengths are limited to 255 8-bit characters in 
+length.</p></body></html>
