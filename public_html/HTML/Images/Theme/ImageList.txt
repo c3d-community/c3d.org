@@ -1,8 +1,0 @@
-﻿Contents\Topic\OpenPicture=Images/Theme/ButtonsAndIcons/open.gif
-Contents\Topic\ClosePicture=Images/Theme/ButtonsAndIcons/closed.gif
-Contents\Topic\NormalPicture=Images/Theme/ButtonsAndIcons/topic.gif
-Navigator\Commands\HideNavigationPane\OpenPicture=Images/Theme/ButtonsAndIcons/hidenav.gif
-Navigator\Commands\HideNavigationPane\ClosePicture=Images/Theme/ButtonsAndIcons/hidenav.gif
-Navigator\Commands\HideNavigationPane\NormalPicture=Images/Theme/ButtonsAndIcons/hidenav.gif
-Navigator\Commands\Logo\OpenPicture=Images/Theme/C3D16s.gif
-Navigator\Commands\Logo\ClosePicture=Images/Theme/C3D16.gif

@@ -1,20 +1,41 @@
-c3d.org website content
-=======================
+# Website
 
-What is this?
--------------
+This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
-This is the working repository for website content created by C3D Community CIC to be served from community website c3d.org.  It contains an audit trail from the content inherited from Edi Cramp / Motion Lab systems to latest revisions implemented in markdown.
+## Installation
 
-Legacy content
---------------
+```bash
+yarn
+```
 
-Website content as inherited from Edi Cramp / Motion Lab Systems is initially committed in directory `public_html` for the purpose of maintaining an audit trail.  This will be / has been deleted from the main branch once the site is fully converted to markdown.
+## Local Development
 
-Certain items received from Motion Lab Systems were not committed, as follows:
+```bash
+yarn start
+```
 
-  - Contents of the `apps` directory, which contained 
-    C3D-related software created by Motion Lab Systems
-    and others.
-  - Contents of the `data` directory, which contained all C3D example files totalling 258.5 MB.
-  - Original source to the C3D user guide which had been created for use with proprietary documentation software Doc-to-Help.  The resulting guide is present though, in `docs\C3D_User_Guide.pdf`, `docs\C3D_User_Guide.chm` and `HTML`.
+This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+
+## Build
+
+```bash
+yarn build
+```
+
+This command generates static content into the `build` directory and can be served using any static contents hosting service.
+
+## Deployment
+
+Using SSH:
+
+```bash
+USE_SSH=true yarn deploy
+```
+
+Not using SSH:
+
+```bash
+GIT_USER=<Your GitHub username> yarn deploy
+```
+
+If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.

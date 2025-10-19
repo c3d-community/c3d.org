@@ -1,1 +1,0 @@
-﻿d2hStoreMenuItems("TX__58173", [["Documents/type14.htm", "right", "TYPE-1"],["Documents/type15.htm", "right", "TYPE-1"]]);

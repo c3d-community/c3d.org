@@ -1,0 +1,19 @@
+---
+title: Repairing C3D files
+---
+
+If you need to repair a C3D file then consider the commercial C3Deditor which can open any C3D file and repair many common faults as well as giving the user the ability to edit locked parameters and delete unwanted or corrupted data channels.
+
+The C3Deditor can be downloaded from the www.c3d.org web site and, once a license is purchased, can export C3D data from integer format C3D files to floating-point format C3D files, or from floating-point format C3D files back to integer format C3D files while recalculating the 3D scale factor.  It also supports the conversion of C3D files to each of the numeric formats, DEC, Intel, or SGI/MIPS for application compatibility verification.
+
+The C3Deditor is useful if you are working with, debugging or repairing any C3D file structure at a detailed level and has been supporting the C3D file format since 2000.  It can be installed and run on any current Microsoft system giving the user the ability to modify both the stored data and parameters as well as create and delete 3D data, analog data and parameters.  It includes tools that can filter and interpolate data as well as repair minor glitches common in many data collection systems when a single sample is lost or corrupted.
+
+It can many fix problems that render some C3D files unreadable and clean up C3D file data for presentation and analysis.  Files can be edited individually, or via a batch mode to perform a series of edits on all the C3D files in a directory to correct larger problems; this feature was added when a user discovered that all the data collected for a month after a motion capture system upgrade had the incorrect force plate locations – a problem fixed by configuring the C3Deditor to automatically repair more than a thousand C3D files by updating the parameters in about 15 minutes.
+
+A simple C3D file editing application written in Visual Basic is included with the free C3Dserver (also available from the www.c3d.org web site) that may assist with elementary C3D file repairs, such as correcting or updating parameter values.
+
+Many sample C3D files are available from the C3D web site that illustrate the problems that appear when application programmers create C3D files scaled in meters instead of millimeters, set the 3D marker residuals incorrectly as -1 rendering all the data invalid, fail to record accurate ANALOG:SCALE and ANALOG:OFFSET parameters, fail to set the POINT:DATA_START parameter correctly, or even fail to accurately sample and store the analog data correctly.  These are all problems that may prevent a user from opening a C3D file or, if the file is opened and read, can present corrupt data.
+
+An additional issue is that many C3D applications expect that the C3D file header values, recording the frame range of the original raw data that was processed to create the C3D file, are actually recording the stored C3D file frame range.  As a result applications may read the header values and incorrectly apply them to the C3D file, causing errors when a C3D file that has been edited to add or delete 3D frames and causing the application to become confused as it reads two different frame ranges from one file.
+
+
