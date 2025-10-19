@@ -16,17 +16,17 @@ const config = {
     favicon: 'img/c3dfile.ico',
 
     // Set the production url of your site here
-    url: 'http://c3d.org',
+    url: 'https://c3d.org',
     // Set the /<baseUrl>/ pathname under which your site is served
     // For GitHub pages deployment, it is often '/<projectName>/'
-    baseUrl: '/c3d.org/',
+    baseUrl: '/',
 
     // GitHub pages deployment config.
     // If you aren't using GitHub pages, you don't need these.
     organizationName: 'c3d-community', // Usually your GitHub org/user name.
     projectName: 'c3d.org', // Usually your repo name.
     deploymentBranch: 'gh-pages',
-    trailingSlash: false,
+    trailingSlash: true,
 
     onBrokenLinks: 'ignore',
     markdown: {
